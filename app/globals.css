@@ -1,2 +1,128 @@
 @import "tailwindcss";
-:root{--ink:#1d2924;--muted:#6f7a74;--paper:#f4f1e8;--cream:#fcfaf4;--line:#d8d4c9;--moss:#355b4b;--rust:#b45d38}*{box-sizing:border-box}html{background:var(--paper)}body{margin:0;color:var(--ink);background:linear-gradient(180deg,#ece8dc 0,#f6f3eb 440px,#ebe7dc 100%);font-family:"Hiragino Sans","Yu Gothic",system-ui,sans-serif}button{font:inherit;cursor:pointer}main{min-height:100vh;padding:18px 14px 64px}.site-header{max-width:760px;margin:0 auto 14px;display:flex;justify-content:space-between;align-items:end;padding:8px 3px}.eyebrow,.section-kicker{margin:0 0 6px;color:var(--moss);font:700 10px/1.3 Georgia,serif;letter-spacing:.18em}.site-header h1{margin:0;font-family:Georgia,"Yu Mincho",serif;font-size:20px;font-weight:600}.count{display:flex;align-items:baseline;gap:4px;color:#8d918b;font-family:Georgia,serif}.count b{color:var(--ink);font-size:24px}.count span{font-size:12px}.card-shell{max-width:760px;margin:auto}.destination-card{overflow:hidden;border:1px solid rgba(72,77,69,.18);border-radius:26px;background:var(--cream);box-shadow:0 24px 60px rgba(45,51,46,.12)}.gallery{aspect-ratio:16/10;position:relative;overflow:hidden;background:#768078;color:#fff}.placeholder{position:absolute;inset:0;padding:22px;display:flex;align-items:flex-end;background:linear-gradient(155deg,#71867b,#2d4c42 65%,#18372f);transition:background .3s}.placeholder-2{background:linear-gradient(155deg,#8b9185,#4d685d 52%,#233e36)}.placeholder-3{background:linear-gradient(155deg,#878e72,#59694f 50%,#34473b)}.placeholder-4{background:linear-gradient(155deg,#92775d,#6a6c42 50%,#384837)}.placeholder-5{background:linear-gradient(155deg,#88928d,#52665e 50%,#293f38)}.placeholder:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,20,16,.12),rgba(9,22,17,.15) 52%,rgba(8,18,14,.75))}.mountain-mark{position:absolute;width:86%;height:56%;left:7%;top:15%;opacity:.35}.mountain-mark span{position:absolute;left:5%;bottom:0;width:62%;height:100%;background:rgba(247,245,234,.5);clip-path:polygon(0 100%,45% 17%,61% 55%,72% 40%,100% 100%)}.mountain-mark span+span{left:43%;width:52%;height:80%;opacity:.5}.image-label{position:relative;z-index:2;max-width:82%;display:grid;gap:5px}.image-label small{font-size:9px;letter-spacing:.16em;opacity:.78}.image-label strong{font-family:Georgia,"Yu Mincho",serif;font-size:22px;line-height:1.25}.image-label span{font-size:11px;opacity:.75}.gallery-topline{position:absolute;z-index:3;top:17px;left:20px;right:20px;display:flex;justify-content:space-between;gap:16px;font-size:9px;letter-spacing:.12em;opacity:.85}.gallery-topline span:last-child{text-align:right;letter-spacing:.04em}.gallery-arrow{position:absolute;z-index:4;top:45%;width:34px;height:34px;border:1px solid rgba(255,255,255,.35);border-radius:50%;background:rgba(20,31,26,.22);color:#fff;font-size:24px;line-height:1;backdrop-filter:blur(6px)}.gallery-arrow.left{left:12px}.gallery-arrow.right{right:12px}.gallery-dots{position:absolute;z-index:4;right:20px;bottom:20px;display:flex;gap:5px}.gallery-dots button{width:5px;height:5px;border:0;border-radius:50%;padding:0;background:rgba(255,255,255,.45)}.gallery-dots button.active{width:18px;border-radius:8px;background:#fff}.card-content{padding:26px 22px 24px}.title-row{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}.japanese-name{margin:0 0 5px;color:var(--muted);font:11px/1.4 Georgia,"Yu Mincho",serif;letter-spacing:.07em}.title-row h2{margin:0;font:600 40px/1 Georgia,"Yu Mincho",serif;letter-spacing:.04em}.season-score{min-width:66px;border-left:1px solid var(--line);padding-left:15px;color:var(--moss);font:14px/1.05 Georgia,serif}.season-score b{font-size:25px}.season-score small{color:var(--muted);font-family:system-ui,sans-serif;font-size:9px}.one-line{margin:14px 0 0;color:#56625c;font-size:14px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0}.tags span{padding:6px 9px;border:1px solid #d8d8cd;border-radius:999px;background:#f7f5ed;font-size:11px}.hook{margin:0;padding:18px 0 20px;border-top:1px solid var(--line);font:16px/1.8 Georgia,"Yu Mincho",serif}.experience-block{padding:19px 0;border-top:1px solid var(--line)}.experience-block ol{list-style:none;margin:0;padding:0}.experience-block li{display:grid;grid-template-columns:32px 1fr;align-items:start;padding:9px 0}.experience-block li span{color:var(--rust);font:italic 13px/1.7 Georgia,serif}.experience-block li p{margin:0;font-size:13px;line-height:1.7}.season-note{display:grid;grid-template-columns:48px 1fr;gap:13px;padding:17px;border-radius:18px;background:#e9e5d6}.season-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:var(--rust);color:#fff;font-family:Georgia,"Yu Mincho",serif}.season-note h3{margin:1px 0 5px;font-size:13px}.season-note p{margin:0;color:#5f6862;font-size:12px;line-height:1.7}.glance-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.glance-grid div{min-height:74px;padding:13px;border:1px solid var(--line);border-radius:14px;display:grid;gap:7px}.glance-grid small{color:var(--muted);font-size:10px}.glance-grid strong{font-size:12px}.ratings{padding:15px 2px;display:grid;gap:9px}.rating{display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--muted)}.rating-dots{display:flex;gap:5px}.rating-dots i{width:8px;height:8px;border-radius:50%;border:1px solid #aab0aa}.rating-dots i.filled{border-color:var(--moss);background:var(--moss)}.vote-panel{margin:8px -8px -10px;padding:20px 16px 17px;background:#203d33;color:#fff;border-radius:19px}.vote-heading{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}.vote-heading span{color:#acc0b5;font:700 9px/1.2 Georgia,serif;letter-spacing:.16em}.vote-heading h3{margin:6px 0 14px;font-size:13px;font-weight:600}.saved{color:#bcd8c8;font-size:10px;white-space:nowrap}.vote-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}.vote-grid button{min-width:0;padding:10px 3px;display:grid;place-items:center;gap:5px;border:1px solid rgba(255,255,255,.15);border-radius:12px;background:rgba(255,255,255,.07);color:#fff}.vote-grid button span{font-size:20px}.vote-grid button b{font-size:10px;font-weight:500}.vote-grid button.selected{border-color:#f2db9e;background:#f2db9e;color:#233a32;transform:translateY(-2px)}.destination-nav{max-width:760px;margin:16px auto;display:flex;justify-content:space-between}.destination-nav button{padding:10px 14px;border:1px solid var(--line);border-radius:99px;background:var(--cream)}@media(min-width:700px){main{padding-top:34px}.card-content{padding:34px 42px 32px}.gallery{aspect-ratio:16/8.7}.title-row h2{font-size:48px}.vote-panel{margin-left:0;margin-right:0}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+:root{--ink:#1d2924;--muted:#6f7a74;--paper:#f4f1e8;--cream:#fcfaf4;--line:#d8d4c9;--moss:#355b4b;--rust:#b45d38}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0;color:var(--ink);background:linear-gradient(180deg,#ece8dc 0,#f6f3eb 440px,#ebe7dc 100%);font-family:"Hiragino Sans","Yu Gothic",system-ui,sans-serif}
+button{font:inherit;cursor:pointer}
+main{min-height:100vh;padding:18px 14px 64px}
+.site-header{max-width:760px;margin:0 auto 14px;display:flex;justify-content:space-between;align-items:end;padding:8px 3px}
+.eyebrow,.section-kicker{margin:0 0 6px;color:var(--moss);font:700 10px/1.3 Georgia,serif;letter-spacing:.18em}
+.site-header h1{margin:0;font-family:Georgia,"Yu Mincho",serif;font-size:20px;font-weight:600}
+.count{display:flex;align-items:baseline;gap:4px;color:#8d918b;font-family:Georgia,serif}
+.count b{color:var(--ink);font-size:24px}
+.count span{font-size:12px}
+.card-shell{max-width:760px;margin:auto}
+.destination-card{overflow:hidden;border:1px solid rgba(72,77,69,.18);border-radius:26px;background:var(--cream);box-shadow:0 24px 60px rgba(45,51,46,.12)}
+.gallery{aspect-ratio:16/10;position:relative;overflow:hidden;background:#768078;color:#fff}
+.placeholder{position:absolute;inset:0;padding:22px;display:flex;align-items:flex-end;background:linear-gradient(155deg,#71867b,#2d4c42 65%,#18372f);transition:background .3s}
+.placeholder-2{background:linear-gradient(155deg,#8b9185,#4d685d 52%,#233e36)}
+.placeholder-3{background:linear-gradient(155deg,#878e72,#59694f 50%,#34473b)}
+.placeholder-4{background:linear-gradient(155deg,#92775d,#6a6c42 50%,#384837)}
+.placeholder-5{background:linear-gradient(155deg,#88928d,#52665e 50%,#293f38)}
+.placeholder:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,20,16,.12),rgba(9,22,17,.15) 52%,rgba(8,18,14,.75))}
+.mountain-mark{position:absolute;width:86%;height:56%;left:7%;top:15%;opacity:.35}
+.mountain-mark span{position:absolute;left:5%;bottom:0;width:62%;height:100%;background:rgba(247,245,234,.5);clip-path:polygon(0 100%,45% 17%,61% 55%,72% 40%,100% 100%)}
+.mountain-mark span+span{left:43%;width:52%;height:80%;opacity:.5}
+.image-label{position:relative;z-index:2;max-width:82%;display:grid;gap:5px}
+.image-label small{font-size:9px;letter-spacing:.16em;opacity:.78}
+.image-label strong{font-family:Georgia,"Yu Mincho",serif;font-size:22px;line-height:1.25}
+.image-label span{font-size:11px;opacity:.75}
+.gallery-topline{position:absolute;z-index:3;top:17px;left:20px;right:20px;display:flex;justify-content:space-between;gap:16px;font-size:9px;letter-spacing:.12em;opacity:.85}
+.gallery-topline span:last-child{text-align:right;letter-spacing:.04em}
+.gallery-arrow{position:absolute;z-index:4;top:45%;width:34px;height:34px;border:1px solid rgba(255,255,255,.35);border-radius:50%;background:rgba(20,31,26,.22);color:#fff;font-size:24px;line-height:1;backdrop-filter:blur(6px)}
+.gallery-arrow.left{left:12px}
+.gallery-arrow.right{right:12px}
+.gallery-dots{position:absolute;z-index:4;right:20px;bottom:20px;display:flex;gap:5px}
+.gallery-dots button{width:5px;height:5px;border:0;border-radius:50%;padding:0;background:rgba(255,255,255,.45)}
+.gallery-dots button.active{width:18px;border-radius:8px;background:#fff}
+.card-content{padding:26px 22px 24px}
+.title-row{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
+.japanese-name{margin:0 0 5px;color:var(--muted);font:11px/1.4 Georgia,"Yu Mincho",serif;letter-spacing:.07em}
+.title-row h2{margin:0;font:600 40px/1 Georgia,"Yu Mincho",serif;letter-spacing:.04em}
+.season-score{min-width:66px;border-left:1px solid var(--line);padding-left:15px;color:var(--moss);font:14px/1.05 Georgia,serif}
+.season-score b{font-size:25px}
+.season-score small{color:var(--muted);font-family:system-ui,sans-serif;font-size:9px}
+.one-line{margin:14px 0 0;color:#56625c;font-size:14px}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0}
+.tags span{padding:6px 9px;border:1px solid #d8d8cd;border-radius:999px;background:#f7f5ed;font-size:11px}
+.hook{margin:0;padding:18px 0 20px;border-top:1px solid var(--line);font:16px/1.8 Georgia,"Yu Mincho",serif}
+.experience-block{padding:19px 0;border-top:1px solid var(--line)}
+.experience-block ol{list-style:none;margin:0;padding:0}
+.experience-block li{display:grid;grid-template-columns:32px 1fr;align-items:start;padding:9px 0}
+.experience-block li span{color:var(--rust);font:italic 13px/1.7 Georgia,serif}
+.experience-block li p{margin:0;font-size:13px;line-height:1.7}
+.season-note{display:grid;grid-template-columns:48px 1fr;gap:13px;padding:17px;border-radius:18px;background:#e9e5d6}
+.season-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:50%;background:var(--rust);color:#fff;font-family:Georgia,"Yu Mincho",serif}
+.season-note h3{margin:1px 0 5px;font-size:13px}
+.season-note p{margin:0;color:#5f6862;font-size:12px;line-height:1.7}
+.glance-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.glance-grid div{min-height:74px;padding:13px;border:1px solid var(--line);border-radius:14px;display:grid;gap:7px}
+.glance-grid small{color:var(--muted);font-size:10px}
+.glance-grid strong{font-size:12px}
+.ratings{padding:15px 2px;display:grid;gap:9px}
+.rating{display:flex;justify-content:space-between;align-items:center;font-size:11px;color:var(--muted)}
+.rating-dots{display:flex;gap:5px}
+.rating-dots i{width:8px;height:8px;border-radius:50%;border:1px solid #aab0aa}
+.rating-dots i.filled{border-color:var(--moss);background:var(--moss)}
+.vote-panel{margin:8px -8px -10px;padding:20px 16px 17px;background:#203d33;color:#fff;border-radius:19px}
+.vote-heading{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.vote-heading span{color:#acc0b5;font:700 9px/1.2 Georgia,serif;letter-spacing:.16em}
+.vote-heading h3{margin:6px 0 14px;font-size:13px;font-weight:600}
+.saved{color:#bcd8c8;font-size:10px;white-space:nowrap}
+.vote-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
+.vote-grid button{min-width:0;padding:10px 3px;display:grid;place-items:center;gap:5px;border:1px solid rgba(255,255,255,.15);border-radius:12px;background:rgba(255,255,255,.07);color:#fff}
+.vote-grid button span{font-size:20px}
+.vote-grid button b{font-size:10px;font-weight:500}
+.vote-grid button.selected{border-color:#f2db9e;background:#f2db9e;color:#233a32;transform:translateY(-2px)}
+.destination-nav{max-width:760px;margin:16px auto;display:flex;justify-content:space-between}
+.destination-nav button{padding:10px 14px;border:1px solid var(--line);border-radius:99px;background:var(--cream)}
+@media(min-width:700px){main{padding-top:34px}
+.card-content{padding:34px 42px 32px}
+.gallery{aspect-ratio:16/8.7}
+.title-row h2{font-size:48px}
+.vote-panel{margin-left:0;margin-right:0}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}
+}
+.details-view{margin-top:18px;border-top:1px solid var(--line)}
+.details-view>summary{list-style:none;padding:20px 2px 3px;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+.details-view>summary::-webkit-details-marker{display:none}
+.details-view>summary span{display:grid;gap:5px;font-size:14px;font-weight:650}
+.details-view>summary small{color:var(--moss);font:700 9px/1.2 Georgia,serif;letter-spacing:.16em}
+.details-view>summary b{width:31px;height:31px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;font-size:18px;font-weight:400;transition:transform .2s}
+.details-view[open]>summary b{transform:rotate(45deg)}
+.details-body{margin:16px -22px -24px;padding:0 22px 8px;background:#f2efe6;border-top:1px solid var(--line)}
+.planner-verdict{margin:22px 0 2px;padding:16px;display:grid;grid-template-columns:46px 1fr;gap:13px;border-radius:16px;background:#203d33;color:#fff}
+.planner-verdict>span{width:42px;height:42px;display:grid;place-items:center;border:1px solid #789587;border-radius:50%;font:italic 22px Georgia,serif}
+.planner-verdict small{color:#acc0b5;font-size:9px}.planner-verdict p{margin:5px 0 0;font-size:12px;line-height:1.65}
+.detail-section{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:25px 0;border-bottom:1px solid var(--line)}
+.detail-number{margin:3px 0;color:var(--rust);font:italic 11px Georgia,serif}
+.detail-section h3{margin:0 0 13px;font:600 20px Georgia,"Yu Mincho",serif}
+.detail-section p{font-size:12px;line-height:1.75;color:#55615a}
+.detail-section .feature-text{margin:0 0 9px;color:var(--rust);font:600 16px Georgia,"Yu Mincho",serif}
+.route-line{display:flex;flex-wrap:wrap;gap:5px;margin:14px 0;padding:13px;border-radius:12px;background:#e3e5db}
+.route-line span{font-size:10px}.route-line i{margin-left:5px;color:#899189;font-style:normal}
+.detail-section dl{margin:14px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.detail-section dl div{padding:10px;border:1px solid var(--line);border-radius:11px}.detail-section dt{color:var(--muted);font-size:9px}.detail-section dd{margin:5px 0 0;font-size:11px;line-height:1.4}
+.fine-note{font-size:10px!important}
+.expectation{display:grid;gap:6px;margin-top:14px;padding:14px;border-left:3px solid var(--rust);background:#ebe4d6}
+.expectation b{font-size:11px}.expectation span{font-size:11px}.expectation em{margin-top:4px;color:#926047;font-size:10px;line-height:1.6;font-style:normal}
+.detail-ratings{display:grid;gap:11px;padding:14px;border-radius:12px;background:#e4e6dc}
+.access-line{margin:5px 0;color:var(--ink)!important}
+.pending-box{margin:14px 0;padding:13px;display:grid;gap:5px;border:1px dashed #9b937e;border-radius:12px;background:#ece7d9}
+.pending-box small{color:var(--muted);font-size:9px}.pending-box b{font-size:12px}
+.compare-title{margin:0;color:var(--rust)!important;font-weight:700}
+.fit-grid{display:grid;gap:8px;margin-top:14px}.fit-grid>div{display:grid;gap:6px;padding:13px;border-radius:12px;background:#e4e6dc}.fit-grid>div+div{background:#ebe2d8}.fit-grid b,.fit-grid span{font-size:10px}
+.risk-level{display:inline-block;margin:0 0 4px!important;padding:5px 9px;border-radius:99px;background:#e8d7c8;color:#8c4f32!important;font-weight:700}
+.verified{margin:-6px 0 12px!important;color:var(--muted)!important;font-size:10px!important}
+.sources a{display:grid;grid-template-columns:25px 1fr 16px;gap:8px;align-items:center;padding:11px 0;border-top:1px solid var(--line);color:var(--ink);text-decoration:none}
+.sources a>span{color:var(--rust);font:italic 10px Georgia,serif}.sources a div{display:grid;gap:3px}.sources a b{font-size:11px}.sources a small{color:var(--muted);font-size:9px}.sources a i{font-style:normal;color:var(--muted)}
+.summary-panel{max-width:760px;margin:26px auto 0;padding:24px;border:1px solid rgba(72,77,69,.18);border-radius:24px;background:var(--cream)}
+.summary-panel h2{margin:0 0 18px;font:600 28px Georgia,"Yu Mincho",serif}
+.summary-groups{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.summary-groups>div{display:grid;grid-template-columns:25px 1fr;gap:2px 6px;padding:12px;border:1px solid var(--line);border-radius:13px}
+.summary-groups>div>span{grid-row:1/3;font-size:18px}.summary-groups b{font-size:10px}.summary-groups p{margin:0;color:var(--muted);font-size:11px}
+.summary-actions{display:flex;gap:9px;margin-top:16px}.summary-actions button{height:42px;border-radius:99px}.summary-actions button:disabled{cursor:not-allowed;opacity:.45}
+.copy-button{flex:1;border:0;background:var(--moss);color:#fff;font-size:12px;font-weight:650}.reset-button{padding:0 16px;border:1px solid var(--line);background:transparent;color:var(--muted);font-size:11px}
+.storage-note{margin:12px 0 0;text-align:center;color:#8a8f89;font-size:9px}
+@media(min-width:700px){.details-body{margin-left:-42px;margin-right:-42px;margin-bottom:-32px;padding-left:42px;padding-right:42px}.fit-grid{grid-template-columns:1fr 1fr}.summary-panel{padding:30px 42px}}
