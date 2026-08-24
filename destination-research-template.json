@@ -98,7 +98,8 @@
         "slot": 1,
         "role": "hero",
         "subject": "待填写",
-        "seasonConstraint": "优先 9 月底至 10 月上旬实景"
+        "seasonConstraint": "优先 9 月底至 10 月上旬实景",
+        "sourceUrl": null
       }
     ],
     "note": "最终图片应保存为站点本地资源，并记录来源和版权条件"

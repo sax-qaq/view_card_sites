@@ -38,15 +38,15 @@ export default function Home() {
   const destinations = roundOneDestinations;
   const destination = destinations[activeIndex];
   const detail = roundTwoDestinations[activeIndex];
-  const segmentDestinationEvaluation = detail.segmentAnalysis.destinationEvaluations.find(
+  const segmentDestinationEvaluation = detail.segmentAnalysis?.destinationEvaluations.find(
     item => item.destinationId === destination.id,
   );
   const segmentDecision = detail.segmentDecision?.decisions.find(
     item => item.destinationId === destination.id,
   );
-  const comparisons = detail.segmentAnalysis.comparisons.filter(
+  const comparisons = detail.segmentAnalysis?.comparisons.filter(
     comparison => comparison.destinationIds.includes(destination.id),
-  );
+  ) ?? [];
   const selectedVote = votes[destination.id];
 
   useEffect(() => { try { setVotes(JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}")); } catch { setVotes({}); } }, []);
@@ -64,7 +64,7 @@ export default function Home() {
   }
 
   return <main>
-    <header className="site-header"><div><p className="eyebrow">旅の候補 · TRIP SHORTLIST</p><h1>{detail.segmentAnalysis.segmentLabel}</h1></div><div className="count"><b>{activeIndex + 1}</b><span>/ {destinations.length}</span></div></header>
+    <header className="site-header"><div><p className="eyebrow">旅の候補 · TRIP SHORTLIST</p><h1>{detail.segmentAnalysis?.segmentLabel ?? "目的地候选"}</h1></div><div className="count"><b>{activeIndex + 1}</b><span>/ {destinations.length}</span></div></header>
     <section className="card-shell" aria-live="polite"><article className="destination-card">
       <div className="gallery">
         <div className={`placeholder placeholder-${imageIndex + 1}`}><div className="mountain-mark" aria-hidden="true"><span/><span/></div><div className="image-label"><small>{destination.gallery.requirements[imageIndex].role.toUpperCase()} · 季节实景待补</small><strong>{destination.gallery.requirements[imageIndex].subject}</strong><span>{destination.gallery.requirements[imageIndex].seasonConstraint}</span></div></div>

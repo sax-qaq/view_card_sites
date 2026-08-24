@@ -99,7 +99,20 @@
     // 期望图片数量范围
     "requiredCount": { "min": 3, "max": 5 },
     // 每个图片位置的主题和季节要求
-    "requirements": [{ "slot": 1, "role": "hero", "subject": "待填写", "seasonConstraint": "优先 9 月底至 10 月上旬实景" }],
+    "requirements": [
+      {
+        // 图片槽位序号
+        "slot": 1,
+        // hero、landscape、experience、season、landmark 或 optional
+        "role": "hero",
+        // 图片应展示的主体
+        "subject": "待填写",
+        // 图片需要符合的季节条件
+        "seasonConstraint": "优先 9 月底至 10 月上旬实景",
+        // 已选图片的直接地址；尚未选图时填 null
+        "sourceUrl": null
+      }
+    ],
     // 图片版权、本地化和来源说明
     "note": "最终图片应保存为站点本地资源，并记录来源和版权条件"
   },

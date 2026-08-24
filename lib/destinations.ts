@@ -53,9 +53,10 @@ export type Destination = {
     requiredCount: { min: number; max: number };
     requirements: Array<{
       slot: number;
-      role: "hero" | "landscape" | "experience" | "season" | "optional";
+      role: "hero" | "landscape" | "experience" | "season" | "landmark" | "optional";
       subject: string;
       seasonConstraint: string;
+      sourceUrl: string | null;
     }>;
     note: string;
   };
@@ -177,7 +178,7 @@ export type RoundTwoDestination = {
   bookingRisk: Destination["bookingRisk"];
   sources: Destination["sources"];
   research: Destination["research"];
-  segmentAnalysis: SegmentAnalysis;
+  segmentAnalysis: SegmentAnalysis | null;
   segmentDecision: SegmentDecision | null;
 };
 
@@ -218,13 +219,10 @@ export function simplifyDestinationForRoundTwo(destination: Destination): RoundT
   const segmentAnalysis = segmentAnalyses.find(
     (analysis) => analysis.candidateDestinationIds.includes(destination.id),
   );
-  if (!segmentAnalysis) {
-    throw new Error(`Missing segment analysis for destination: ${destination.id}`);
-  }
   const segmentDecision = segmentDecisions.find(
     (decision) =>
-      decision.tripId === segmentAnalysis.tripId &&
-      decision.segmentId === segmentAnalysis.segmentId,
+      decision.tripId === segmentAnalysis?.tripId &&
+      decision.segmentId === segmentAnalysis?.segmentId,
   ) ?? null;
 
   return {
