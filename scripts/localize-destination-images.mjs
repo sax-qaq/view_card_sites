@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { createHash } from "node:crypto";
-import { mkdir, readdir, readFile, unlink, writeFile } from "node:fs/promises";
+import { access, mkdir, readdir, readFile, unlink, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import sharp from "sharp";
@@ -11,9 +11,11 @@ const catalogPath = path.join(projectRoot, "destinations.json");
 const publicRoot = path.join(projectRoot, "public");
 const maxBytes = 500 * 1024;
 const qualitySteps = [82, 76, 70, 64, 58];
+const force = process.argv.includes("--force");
 
 const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
 const successes = [];
+const skipped = [];
 const failures = [];
 
 for (const destination of catalog.destinations) {
@@ -28,6 +30,23 @@ for (const destination of catalog.destinations) {
 
   for (const image of destination.gallery.requirements) {
     if (!image.sourceUrl) continue;
+
+    if (!force && image.assetUrl) {
+      const existingAssetPath = path.resolve(publicRoot, image.assetUrl.replace(/^\//, ""));
+      if (existingAssetPath.startsWith(`${publicRoot}${path.sep}`)) {
+        try {
+          await access(existingAssetPath);
+          skipped.push({
+            destinationId: destination.id,
+            slot: image.slot,
+            assetUrl: image.assetUrl,
+          });
+          continue;
+        } catch {
+          // The catalog points to a missing file, so regenerate it below.
+        }
+      }
+    }
 
     try {
       const response = await fetch(image.sourceUrl);
@@ -99,10 +118,12 @@ console.log(
   JSON.stringify(
     {
       localized: successes.length,
+      skipped: skipped.length,
       failed: failures.length,
       originalBytes: sum(successes, "originalBytes"),
       optimizedBytes: sum(successes, "optimizedBytes"),
       images: successes,
+      skippedImages: skipped,
       failures,
     },
     null,
