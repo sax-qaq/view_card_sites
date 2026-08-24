@@ -80,7 +80,7 @@
           ],
           "distanceKm": {
             "min": 3.8,
-            "max": 4,
+            "max": 4.0,
             "approximate": true
           },
           "officialWalkingTime": "约75–80分钟",
@@ -132,40 +132,40 @@
             "role": "hero",
             "subject": "梓川 + 穗高连峰 + 绿黄交错山体",
             "seasonConstraint": "秋季实景，色彩状态比深秋满山金黄更接近9月底至10月上旬，可作为首屏主图",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=115",
-            "assetUrl": "/assets/images/destinations/kamikochi/01-e83d0968b180.webp"
+            "assetUrl": "/assets/images/destinations/kamikochi/01-e83d0968b180.webp",
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=115"
           },
           {
             "slot": 2,
             "role": "experience",
             "subject": "梓川沿岸步道 + 绿黄交错植被",
             "seasonConstraint": "用于展示实际徒步环境，植被仍保留较多绿色，适合作为国庆季节预期",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=78",
-            "assetUrl": "/assets/images/destinations/kamikochi/02-446c11e1f84b.webp"
+            "assetUrl": "/assets/images/destinations/kamikochi/02-446c11e1f84b.webp",
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=78"
           },
           {
             "slot": 3,
             "role": "season",
             "subject": "明神桥 + 山体秋色",
             "seasonConstraint": "用于展示初秋山色和延伸路线环境，不应暗示已经进入深秋极盛状态",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=117",
-            "assetUrl": "/assets/images/destinations/kamikochi/03-001eaaa8d711.webp"
+            "assetUrl": "/assets/images/destinations/kamikochi/03-001eaaa8d711.webp",
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=117"
           },
           {
             "slot": 4,
             "role": "landmark",
             "subject": "大正池 + 穗高群峰倒影",
             "seasonConstraint": "仅作为大正池地点识别和体验说明，不用于表达国庆期间植被颜色",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=110",
-            "assetUrl": "/assets/images/destinations/kamikochi/04-2abe52e5439f.webp"
+            "assetUrl": "/assets/images/destinations/kamikochi/04-2abe52e5439f.webp",
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=110"
           },
           {
             "slot": 5,
             "role": "landmark",
             "subject": "河童桥 + 梓川 + 穗高连峰",
             "seasonConstraint": "仅作为河童桥地点识别图，不用于表达国庆期间实际季节状态",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=86",
-            "assetUrl": "/assets/images/destinations/kamikochi/05-fd3a7ae20e51.webp"
+            "assetUrl": "/assets/images/destinations/kamikochi/05-fd3a7ae20e51.webp",
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=86"
           }
         ],
         "note": "图片来自松本市官方观光网站图库，外链已确认当前可以直接访问。正式站点建议下载为本地资源，避免运行时热链。松本市官方图库存在使用条款和申请要求，公开发布前应再次确认授权条件。"
@@ -239,6 +239,508 @@
       "research": {
         "lastVerified": "2026-08-24",
         "note": "本数据只描述上高地目的地自身事实和2026年国庆期间的季节适配，不计算它嵌入本次名古屋至立山黑部实际行程后的交通代价、是否需要换宿或与已购交通的冲突。这些内容必须在成功读取《2026日本国庆旅行主表.xlsx》后单独判断。"
+      }
+    },
+    {
+      "schemaVersion": "2.0",
+      "id": "okuhida-onsengo",
+      "name": {
+        "zh": "奥飞驒温泉乡",
+        "ja": "奥飛騨温泉郷",
+        "en": "Okuhida Onsengo"
+      },
+      "categories": [
+        "自然山景",
+        "温泉",
+        "红叶"
+      ],
+      "region": "中部地方 岐阜县高山市",
+      "overview": {
+        "oneLine": "在北阿尔卑斯群山怀抱中，乘坐双层缆车直达云端赏秋，并享受顶级露天温泉的静谧之乡。",
+        "hook": "搭乘日本唯一的双层缆车跃升至海拔2156米，抢先领略北阿尔卑斯的初秋红叶与360度雪山级全景。",
+        "topExperiences": [
+          "搭乘日本唯一双层缆车（新穗高缆车）登顶",
+          "在山顶展望台360度远眺北阿尔卑斯群山绝景",
+          "享受奥飞驒温泉乡的高品质天然露天风吕"
+        ],
+        "tags": [
+          {
+            "emoji": "🚠",
+            "label": "双层缆车"
+          },
+          {
+            "emoji": "♨️",
+            "label": "露天温泉"
+          },
+          {
+            "emoji": "🏔️",
+            "label": "群山绝景"
+          }
+        ]
+      },
+      "season": {
+        "targetWindow": {
+          "label": "国庆",
+          "startMonthDay": "09-30",
+          "endMonthDay": "10-07"
+        },
+        "rating": 4,
+        "stage": "初秋与红叶季初期",
+        "summary": "10月初新穗高缆车山顶附近（标高2000米以上）红叶通常已达到见顷，而山脚温泉街仍是绿叶或刚开始变色。整体气温已有明显凉意，山顶极为寒冷。",
+        "whatYouLikelySee": [
+          "新穗高缆车西穗高口站周围的红叶和黄叶",
+          "缆车沿线从山顶到山腰的植被渐变色彩",
+          "早晚温泉乡微凉的秋意与晨雾",
+          "清晰的北阿尔卑斯群山初秋壮景（晴天时）"
+        ],
+        "misleadingExpectation": "不要期待整个温泉乡满山红叶。10月初中低海拔的温泉街（如平汤温泉）往往尚未变红，秋色主要集中在缆车高海拔区域。",
+        "temperatureContext": "10月初温泉街（平汤等）最高气温约15°C，最低气温约5°C至10°C。缆车山顶（海拔2156米）白天气温可能接近0°C至5°C，非常寒冷。",
+        "clothing": "建议采用洋葱式穿衣法。温泉街需要长袖加保暖防风外套；若前往缆车山顶，务必准备冬装（如薄羽绒服或加厚防风夹克）及保暖配件。"
+      },
+      "visit": {
+        "coreSellingPoint": "轻松抵达2000米以上的高海拔区域，以极小的体力代价欣赏北阿尔卑斯壮阔全景与阶梯式秋色，并配有极佳的温泉资源。",
+        "minimumDuration": "4小时",
+        "idealDuration": "1.5天",
+        "physicalRating": 2,
+        "weatherSensitivityRating": 5,
+        "luggage": "建议将大件行李寄存在高山站、松本站或平汤温泉巴士总站的储物柜，仅携带随身物品轻装前往新穗高缆车。",
+        "typicalRoute": {
+          "name": "新穗高缆车全景与温泉半日游",
+          "stops": [
+            "平汤温泉巴士总站",
+            "新穗高缆车（新穗高温泉站）",
+            "白桦平站（换乘及短暂逗留）",
+            "西穗高口站（山顶展望台）"
+          ],
+          "distanceKm": {
+            "min": 3,
+            "max": 4,
+            "approximate": true
+          },
+          "officialWalkingTime": "30分钟",
+          "realisticVisitTime": "2.5到3小时",
+          "extension": "缆车游览后，可在新穗高温泉或平汤温泉体验日归露天浴池，或前往平汤大瀑布游览。"
+        },
+        "overnight": {
+          "sceneryValueRating": 4,
+          "itineraryEfficiencyRating": 4,
+          "value": "能避开白天人流高峰享受清晨山景，有机会参加秋季限定的新穗高缆车“星空观赏便”，并在凉爽秋夜充分体验纯正的露天温泉。"
+        }
+      },
+      "access": {
+        "mainEntrances": [
+          "从高山站乘坐浓飞巴士直达（单程约1.5小时）",
+          "从松本站乘坐特急巴士至平汤温泉换乘（单程约2小时）"
+        ],
+        "operatingSeason": "缆车全年运行，但10月常因强风等恶劣天气临时停运；秋季特定周末会有星空观赏便（夜间延长营业，需核验当年日历）。"
+      },
+      "fit": {
+        "goodFor": [
+          "喜爱高山壮阔自然景观的人",
+          "温泉爱好者",
+          "希望不费体力登高赏秋的长辈或家庭游客"
+        ],
+        "notFor": [
+          "对天气风险容忍度低的人（大雾或雨天视野极差）",
+          "行程紧凑，无法接受单程1.5小时以上盘山巴士的人",
+          "追求繁华商业街和城市夜生活体验的人"
+        ]
+      },
+      "bookingRisk": {
+        "level": "中",
+        "summary": "缆车无需提前预约，但国庆期间售票处和换乘可能需要排队。核心风险在于天气导致缆车停运或视野不佳，以及浓飞巴士热门时段的满载风险。",
+        "note": "需在出发前密切关注天气预报及官网运行状况。需提前确认 2026 年国庆期间浓飞巴士高山-新穗高线的班次时刻，以及星空观赏便的排期。"
+      },
+      "gallery": {
+        "status": "asset_selection_pending",
+        "requiredCount": {
+          "min": 3,
+          "max": 5
+        },
+        "requirements": [
+          {
+            "slot": 1,
+            "role": "hero",
+            "subject": "新穗高双层缆车在秋季满山红叶中穿行的远景",
+            "seasonConstraint": "优先 9 月底至 10 月上旬实景，体现高海拔红叶",
+            "assetUrl": null,
+            "sourceUrl": null
+          },
+          {
+            "slot": 2,
+            "role": "landscape",
+            "subject": "西穗高口站顶层展望台眺望北阿尔卑斯群山的壮景",
+            "seasonConstraint": "秋季晴天，群山清晰",
+            "assetUrl": null,
+            "sourceUrl": null
+          },
+          {
+            "slot": 3,
+            "role": "experience",
+            "subject": "奥飞驒温泉乡的典型露天风吕（如平汤或新穗高温泉）",
+            "seasonConstraint": "带有秋季氛围的温泉实景",
+            "assetUrl": null,
+            "sourceUrl": null
+          }
+        ],
+        "note": "最终图片应保存为站点本地资源，并记录来源和版权条件"
+      },
+      "sources": [
+        {
+          "title": "新穗高缆车官网",
+          "url": "https://shinhotaka-ropeway.jp/",
+          "type": "official",
+          "supports": [
+            "缆车营业时间",
+            "红叶见顷预测",
+            "天气敏感度及停运风险"
+          ]
+        },
+        {
+          "title": "奥飞驒温泉乡观光协会",
+          "url": "https://okuhida.or.jp/",
+          "type": "official",
+          "supports": [
+            "温泉乡气温概况",
+            "星空观赏便运营信息",
+            "区域内游览路线"
+          ]
+        },
+        {
+          "title": "浓飞巴士官网",
+          "url": "https://www.nouhibus.co.jp/",
+          "type": "official_transport",
+          "supports": [
+            "高山及松本至新穗高的公共交通方式",
+            "行程所需时间"
+          ]
+        }
+      ],
+      "research": {
+        "lastVerified": "2026-08-24",
+        "note": "2026年10月的星空观赏便具体运营日期及浓飞巴士秋季时刻表需在出行前1-2个月通过官网最终确认。气温基于历史均值，实际需关注短期预报以防极端降温。"
+      }
+    },
+    {
+      "schemaVersion": "2.0",
+      "id": "hida-takayama",
+      "name": {
+        "zh": "飞驒高山",
+        "ja": "飛騨高山",
+        "en": "Hida Takayama"
+      },
+      "categories": [
+        "历史街区",
+        "文化",
+        "美食",
+        "传统市场"
+      ],
+      "region": "岐阜县高山市・飞驒地区",
+      "overview": {
+        "oneLine": "保存完整的飞驒城下町与商人町，可在紧凑的步行范围内串联三町古街、高山阵屋、宫川朝市和飞驒饮食文化。",
+        "hook": "不是只看一条古街，而是能在半天到一天里同时逛江户町屋、进入日本唯一主要建筑仍现存的代官・郡代所遗构，再用朝市、酒藏和飞驒牛把历史街区变成真实可吃可逛的城市体验。",
+        "topExperiences": [
+          "漫步三町传统建筑群保存地区，观察木格子町屋、水路、酒藏与旧商人街景",
+          "进入高山阵屋，参观江户幕府直辖飞驒时期的办公、居住、审讯与年贡米仓空间",
+          "早晨逛宫川朝市，购买和品尝当地蔬果、腌菜、点心、工艺品，并结合飞驒牛、御手洗团子等街头饮食"
+        ],
+        "tags": [
+          {
+            "emoji": "🏮",
+            "label": "江户城下町"
+          },
+          {
+            "emoji": "🍶",
+            "label": "町屋与酒藏"
+          },
+          {
+            "emoji": "🥩",
+            "label": "飞驒美食"
+          },
+          {
+            "emoji": "🌅",
+            "label": "朝市适合早起"
+          },
+          {
+            "emoji": "🍂",
+            "label": "10月初非市区红叶峰值"
+          }
+        ]
+      },
+      "season": {
+        "targetWindow": {
+          "label": "国庆",
+          "startMonthDay": "09-30",
+          "endMonthDay": "10-07"
+        },
+        "rating": 4,
+        "stage": "初秋，市区由夏末绿意向秋色过渡的前段",
+        "summary": "9月30日至10月7日已经进入高山明显凉爽的初秋，步行逛城的体感通常优于盛夏；但这一时间段的优势主要是舒适的城市漫步与人文体验，而不是成熟红叶。官方旅游资料把高山市区东山寺町一带的典型红叶观赏期放在10月下旬至11月上旬，因此10月初不应按满城红叶来期待。",
+        "whatYouLikelySee": [
+          "三町古街的深色木造町屋、格子窗、水渠、酒藏与商店街景，核心人文景观基本不依赖叶色",
+          "市区树木和周边低山总体仍以绿色或初步转色为主，不同年份可能出现少量黄叶或早转色个体",
+          "清晨宫川沿岸朝市与城市日常生活，9月底至10月初仍处于官方标示的4月至11月7:00开市季节",
+          "明显的昼夜温差：白天适合步行，清晨和夜间已经需要外套"
+        ],
+        "misleadingExpectation": "不要使用高山市区10月下旬至11月上旬的浓烈红叶照片代表9月30日至10月7日；也不要使用高山秋祭大型屋台巡游照片暗示本窗口能够看到秋祭，高山秋祭固定在每年10月9日和10日，晚于本研究窗口。",
+        "temperatureContext": "日本气象厅1991至2020年高山站点逐日平年值显示：9月30日平均16.9°C、日最高22.9°C、日最低12.8°C；10月1日约16.7/22.7/12.6°C，到10月7日约15.5/21.7/11.4°C。这里只是历史气候平年值，不是2026年天气预报；高山官方同时指出市区海拔约573米、昼夜温差较大。",
+        "clothing": "建议分层穿衣。白天晴朗时长袖或短袖打底通常足够活动，随身带轻薄夹克、风衣或抓绒应对约11至13°C量级的清晨和夜间以及冷风；怕冷者早市时可直接穿长裤和外套。携带轻便雨具和防滑、适合连续步行的鞋。2026年实际穿衣应在出发前7至10天依据天气预报重新确认。"
+      },
+      "visit": {
+        "coreSellingPoint": "高山的不可替代性在于一个步行尺度很小的真实历史城市里，同时保存了江户商人町、幕府直辖地行政遗构、传统市场、酒造与飞驒地方饮食；它不是单一古建筑，而是一整套仍能步行体验的飞驒城市文化。",
+        "minimumDuration": "约3小时；只能覆盖三町古街、高山阵屋和宫川朝市中的核心部分，且必须把朝市安排在中午前。",
+        "idealDuration": "约6至8小时，即完整半天至一天；若住宿一晚，可把清晨朝市和游客较少时段的古街加入体验。",
+        "physicalRating": 2,
+        "weatherSensitivityRating": 3,
+        "luggage": "核心老城区以步行为主，拖大行李会明显降低古街、市场和阵屋的游览体验。官方资料确认JR高山站及浓飞巴士中心附近设有多种尺寸投币寄存柜，高山站区域也有临时行李寄存和配送服务；适合先寄存箱包后轻装进入市区。",
+        "typicalRoute": {
+          "name": "高山市中心经典历史文化步行线",
+          "stops": [
+            "JR高山站／高山浓飞巴士中心",
+            "宫川朝市",
+            "三町传统建筑群保存地区",
+            "中桥",
+            "高山阵屋",
+            "JR高山站／高山浓飞巴士中心"
+          ],
+          "distanceKm": {
+            "min": 3,
+            "max": 4,
+            "approximate": true
+          },
+          "officialWalkingTime": "官方没有为这一组合路线公布单一总步行时间；分点资料显示宫川朝市距JR高山站约15分钟、三町保存地区约12分钟、高山阵屋约10分钟。官方另一条市区缓步模型路线安排为9:00至16:00，并给出阵屋前朝市至阵屋1分钟、阵屋至古街5分钟等分段步行时间。",
+          "realisticVisitTime": "约5至7小时，包括朝市停留、三町边走边吃和购物、高山阵屋约30至45分钟参观以及拍照休息；若只快速打卡可压缩到3小时左右。",
+          "extension": "可向北延伸至下二之町大新町传统建筑群、樱山八幡宫和高山祭屋台会馆，或向东进入东山寺町游步道；这些属于加时项目，不是完成核心高山体验的必要条件。"
+        },
+        "overnight": {
+          "sceneryValueRating": 3,
+          "itineraryEfficiencyRating": 4,
+          "value": "住一晚最大的收益不是追求壮观夜景，而是能在宫川朝市7:00开市附近进入市场，并在主要日间客流到来前后漫步三町古街。这样也更容易把朝市、8:45开放的高山阵屋和午餐错峰串起来。2025年10月曾有中桥秋季夜间点灯，但截至2026年8月24日，官网10月活动页尚未更新为2026年度信息，因此不能把2026年国庆期间夜间点灯作为已确认的住宿收益。"
+        }
+      },
+      "access": {
+        "mainEntrances": [
+          "JR高山站：高山本线及特急HIDA进入市区的铁路门户",
+          "高山浓飞巴士中心：位于JR高山站旁，高速巴士及飞驒地区巴士的主要门户",
+          "自驾经高山IC等道路进入高山市中心，再使用市区停车场步行游览"
+        ],
+        "operatingSeason": "高山市中心和三町公共街区全年可进入。按截至2026年8月24日核验的高山阵屋官网，4月1日至10月31日开放8:45至17:00，16:30停止入场，2026年4月起成人票500日元；官网同时提示恶劣天气或设施管理可能导致临时闭馆，目前未发现9月30日至10月7日的临时闭馆公告。宫川朝市官方旅游页面标示全年举办，4月至11月7:00至12:00、12月至3月8:00至12:00，但雨天和冬季摊位数可能显著减少。三町内商店、餐厅、酒藏各自营业日和营业时间不同，应临近日期逐店确认。"
+      },
+      "fit": {
+        "goodFor": [
+          "喜欢江户时期城市史、町屋、传统建筑和地方生活的人",
+          "喜欢边走边吃、朝市、飞驒牛、清酒和地方食品的人",
+          "希望在半天到一天内获得内容密度较高、路线紧凑的人文体验的人",
+          "对拍摄传统木造街区、清晨街景和生活感题材感兴趣的人"
+        ],
+        "notFor": [
+          "把满山红叶或强烈自然景观作为本次旅行第一目标的人，因为10月初高山市区通常早于红叶高峰",
+          "专门为了观看高山秋祭大型屋台巡游而来的人，因为目标窗口截至10月7日，而秋祭固定在10月9日和10日",
+          "对传统街区、历史建筑、地方市场和饮食兴趣都较弱，只追求大型娱乐设施的人",
+          "完全不愿进行数公里城市步行的人"
+        ]
+      },
+      "bookingRisk": {
+        "level": "中",
+        "summary": "三町古街和宫川朝市本身无需预约，高山阵屋通常也可现场购票，因此核心景点不存在明显抢票风险；主要动态风险来自热门旅游城市的住宿、长途指定席或高速巴士，以及个别体验、餐厅和酒藏的营业安排。目标窗口又接近每年10月9日至10日的高山秋祭，越靠近窗口后段越值得提前确认住宿和交通。",
+        "note": "出发前应重新核验2026年10月活动日历、9月30日至10月7日是否新增临时活动或道路管理、高山阵屋临时闭馆公告、宫川朝市营业信息、所选酒藏和餐厅营业日，以及住宿和长途交通实际库存。当前未将2025年的秋季点灯、和服散步或美食活动直接套用为2026年事实。"
+      },
+      "gallery": {
+        "status": "asset_selection_pending",
+        "requiredCount": {
+          "min": 3,
+          "max": 5
+        },
+        "requirements": [
+          {
+            "slot": 1,
+            "role": "hero",
+            "subject": "三町传统建筑群保存地区的连续木格子町屋街景，最好能体现狭长街道、深色木建筑与酒藏氛围",
+            "seasonConstraint": "优先9月底至10月上旬实景；允许绿色或轻微初秋色，不使用满街深红红叶图冒充国庆时段",
+            "sourceUrl": null,
+            "assetUrl": null
+          },
+          {
+            "slot": 2,
+            "role": "experience",
+            "subject": "宫川朝市沿河摊位、当地蔬果食品和真实市场氛围",
+            "seasonConstraint": "优先9月底至10月上旬或无法辨识具体季节的正常营业实景，避免冬季雪景",
+            "sourceUrl": null,
+            "assetUrl": null
+          },
+          {
+            "slot": 3,
+            "role": "landmark",
+            "subject": "高山阵屋正门、外观或具有代表性的内部空间",
+            "seasonConstraint": "建筑主体优先，背景季节不得明显表现樱花盛开、积雪或深秋红叶峰值",
+            "sourceUrl": null,
+            "assetUrl": null
+          },
+          {
+            "slot": 4,
+            "role": "landscape",
+            "subject": "中桥、宫川与高山老城区组合景观，用于展示城市尺度和山地城下町环境",
+            "seasonConstraint": "优先9月底至10月上旬，整体应呈初秋而非红叶峰值",
+            "sourceUrl": null,
+            "assetUrl": null
+          }
+        ],
+        "note": "本轮已检索并展示HIDA TAKAYAMA官网页面中的三町古街、宫川朝市等候选图片作为视觉参考。官方Photo Gallery说明高山市持有图片版权，并对复制、修改和二次分发设有限制；由于尚未核验可长期使用的原图直链及具体使用许可，暂不把预览图直接写入sourceUrl。最终图片应保存为站点本地资源，并逐张记录来源和版权条件。"
+      },
+      "sources": [
+        {
+          "title": "Sanmachi Traditional Buildings Preservation Area | HIDA TAKAYAMA",
+          "url": "https://www.hida.jp/english/touristattractions/takayamacity/historyandculture/4000153.html",
+          "type": "official",
+          "supports": [
+            "三町传统建筑群保存地区的历史街区性质",
+            "传统町屋、木格子、水渠、酒藏、餐饮和纪念品店等核心体验",
+            "三町距JR高山站步行约12分钟",
+            "overview.oneLine、hook和topExperiences中的古街部分"
+          ]
+        },
+        {
+          "title": "Miyagawa Morning Markets | HIDA TAKAYAMA",
+          "url": "https://www.hida.jp/english/touristattractions/takayamacity/historyandculture/4000162.html",
+          "type": "official",
+          "supports": [
+            "宫川朝市约350米、摊位售卖蔬果、腌菜、点心和工艺品等内容",
+            "4月至11月7:00至12:00、冬季8:00至12:00及全年举办信息",
+            "雨天或冬季摊位可能明显减少",
+            "朝市距JR高山站约15分钟",
+            "住宿后早起逛朝市的价值"
+          ]
+        },
+        {
+          "title": "Official Takayama Jinya",
+          "url": "https://jinya.gifu.jp/en/",
+          "type": "official",
+          "supports": [
+            "高山阵屋是日本现存唯一主要建筑仍保存的代官・郡代所遗构",
+            "幕府直辖飞驒时期的行政与历史背景",
+            "2026年官网当前公告状态",
+            "高山阵屋作为核心不可替代历史体验的结论"
+          ]
+        },
+        {
+          "title": "Takayama Jinya Opening Hours & Admission Fees",
+          "url": "https://jinya.gifu.jp/en/guide/info/",
+          "type": "official",
+          "supports": [
+            "4月1日至10月31日8:45至17:00、16:30停止入场",
+            "2026年成人门票500日元",
+            "年末年始及恶劣天气、设施检查可能临时关闭",
+            "官方建议参观时间约30分钟"
+          ]
+        },
+        {
+          "title": "For those who want a gentle stroll | HIDA TAKAYAMA",
+          "url": "https://www.hida.jp/english/touristattractions/takayamacity/modelitinerary/4000211.html",
+          "type": "official",
+          "supports": [
+            "高山市中心适合步行串联的事实",
+            "官方9:00至16:00缓步模型行程",
+            "阵屋前朝市、高山阵屋、古街、东山和城山之间的分段步行时间",
+            "visit.idealDuration和typicalRoute的时间量级"
+          ]
+        },
+        {
+          "title": "Climate | HIDA TAKAYAMA",
+          "url": "https://www.hida.jp/english/traveltips/abouttakayama/4000110.html",
+          "type": "official",
+          "supports": [
+            "高山市中心约573米海拔",
+            "昼夜温差较大、夜间偏凉的气候特征",
+            "9月早晚转凉和10月需要外套的官方穿衣建议",
+            "season.clothing的分层穿衣判断"
+          ]
+        },
+        {
+          "title": "JMA Takayama Daily Climate Normals - September",
+          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_d.php?block_no=47617&day=25&month=09&prec_no=52&view=p1s&year=",
+          "type": "reference",
+          "supports": [
+            "1991至2020年高山逐日气候平年值",
+            "9月30日平均16.9°C、最高22.9°C、最低12.8°C",
+            "temperatureContext的数据边界"
+          ]
+        },
+        {
+          "title": "JMA Takayama Daily Climate Normals - October",
+          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_d.php?block_no=47617&day=&month=10&prec_no=52&view=a4s&year=",
+          "type": "reference",
+          "supports": [
+            "1991至2020年10月高山逐日气候平年值",
+            "10月1日至7日平均、最高和最低气温逐步下降的量级",
+            "10月1日约16.7/22.7/12.6°C、10月7日约15.5/21.7/11.4°C",
+            "明确历史气候而非2026天气预报"
+          ]
+        },
+        {
+          "title": "HIDA TAKAYAMA Travel Brochure",
+          "url": "https://www.hida.jp/_res/projects/hida_jp/_page_/004/000/097/2024travel_brochure.pdf",
+          "type": "official",
+          "supports": [
+            "高山市区东山寺町典型彩色秋叶观赏期为10月下旬至11月上旬",
+            "9月30日至10月7日不是高山市区红叶峰值的判断",
+            "season.misleadingExpectation和gallery季节约束"
+          ]
+        },
+        {
+          "title": "Autumn Takayama Festival (Hachiman Matsuri) | HIDA TAKAYAMA",
+          "url": "https://www.hida.jp/english/festivalsandevents/4000209.html",
+          "type": "official",
+          "supports": [
+            "高山秋祭每年10月9日和10日举行",
+            "9月30日至10月7日目标窗口无法看到正式秋祭的结论",
+            "season.misleadingExpectation和fit.notFor"
+          ]
+        },
+        {
+          "title": "Hida Takayama | JR Central Golden Route",
+          "url": "https://global.jr-central.co.jp/en/goldenroute/area/hida-takayama/",
+          "type": "official_transport",
+          "supports": [
+            "JR高山站作为铁路主要入口",
+            "特急HIDA连接高山的交通方式",
+            "高山作为保存良好的旧城下町、商人街和地方饮食目的地的总体定位"
+          ]
+        },
+        {
+          "title": "2026 Nohi Bus Timetable",
+          "url": "https://www.nouhibus.co.jp/media/2026/03/timetable-en.pdf",
+          "type": "official_transport",
+          "supports": [
+            "高山浓飞巴士中心作为高速巴士主要入口",
+            "2026年已有发布的高速巴士运行资料",
+            "access.mainEntrances中的巴士入口判断"
+          ]
+        },
+        {
+          "title": "JR Takayama Station | HIDA TAKAYAMA",
+          "url": "https://www.hida.jp/english/traveltips/practicalguide/4000197/4000218.html",
+          "type": "official",
+          "supports": [
+            "高山站和浓飞巴士中心附近投币寄存柜",
+            "不同尺寸储物柜及短期行李寄存服务",
+            "visit.luggage中的轻装游览建议"
+          ]
+        },
+        {
+          "title": "Photo Gallery | HIDA TAKAYAMA",
+          "url": "https://www.hida.jp/english/library/4000098.html",
+          "type": "official",
+          "supports": [
+            "高山市官方旅游图库的图片来源",
+            "高山市持有图库照片版权",
+            "图片复制、修改、用途及二次分发限制",
+            "gallery.note中的版权与本地化处理要求"
+          ]
+        }
+      ],
+      "research": {
+        "lastVerified": "2026-08-24",
+        "note": "本研究仅评价飞驒高山目的地本身，没有计算其在具体旅行路段中的换宿、绕行或交通机会成本。季节判断重点核验了9月30日至10月7日：JMA气候平年值和高山官方资料均支持这一阶段已经明显转凉，但官方旅游手册把高山市区东山一带典型红叶期放在10月下旬至11月上旬，因此没有把早10月描述成红叶高峰。高山秋祭固定10月9日至10日，也不在目标窗口内。截至2026年8月24日，高山阵屋官网已经更新到2026年7月，未发现9月30日至10月7日临时闭馆公告；但恶劣天气和设施管理仍可能造成临时关闭。HIDA TAKAYAMA英文版2026年10月活动页目前仍显示2025年度具体活动内容，因此2025年的中桥秋季点灯、和服散步、美食节等均没有当作2026年已确认活动。宫川朝市官方页面内部存在一处文字不一致：营业时间栏写4月至11月7:00开始，但正文仍有建议住客约6:00到访并称市场开始的旧表述；本JSON采用明确营业时间栏的7:00作为当前可用信息，并建议出发前再次确认。typicalRoute.distanceKm为依据核心景点位置关系给出的近似步行距离，并非官方公布的整条路线里程；官方只提供了若干分段步行时间。图库方面已搜索到高山官网候选图片，但官方明确限制二次分发，且本轮没有可靠取得可长期引用的原图直链，因此gallery.sourceUrl保持null，后续正式选图时需逐张处理版权与本地化。"
       }
     }
   ],
