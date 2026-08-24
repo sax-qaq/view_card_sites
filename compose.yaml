@@ -1,7 +1,6 @@
 services:
   web:
-    build:
-      context: .
+    image: crpi-zp6yheeplqxsff50.cn-hangzhou.personal.cr.aliyuncs.com/sax-qaq/view-card-sites:latest
     container_name: view-card-sites
     restart: unless-stopped
     ports:
