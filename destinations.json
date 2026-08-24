@@ -1184,41 +1184,41 @@
           {
             "slot": 1,
             "role": "hero",
-            "subject": "9月中旬官方实拍的秋收田野与合掌造，表现目标窗口最接近的“绿色山林＋收获季”基调",
-            "seasonConstraint": "以9月下旬至10月上旬仍偏绿、田野进入收割期的画面为准；不能用深秋满山红叶或雪景替代",
-            "sourceUrl": "https://shirakawa-go.gr.jp/datas/cache/images/2023/09/14/800x533_ea1e9d427fb5664c32c517a73e421e58_b1ee582168a94024697ca4bcf06833d9c6b53eaf.jpg",
-            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/01-253bb36e1bcb.webp",
-            "displayTitle": "秋收时节的合掌村"
+            "displayTitle": "荻町城迹展望台全景",
+            "subject": "从荻町城迹展望台俯瞰白川乡，金黄色稻田、密集的合掌造屋群与绿色山林构成完整的初秋收获季全景",
+            "seasonConstraint": "2009年9月21日实拍，距离目标窗口约1～2周；金黄稻田与仍以绿色为主的山林很接近9月底至10月上旬的典型基调，但不能据此推断2026年的具体稻收进度",
+            "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Ogi_Shirakawa-g%C5%8D%2C_Gifu%2C_Japan.jpg",
+            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/01-ab3162a0a64d.webp"
           },
           {
             "slot": 2,
-            "role": "landscape",
-            "subject": "合掌造与金黄色水田的俯视田园景观",
-            "seasonConstraint": "优先接近9月底的成熟稻田或刚收割田地，背景山林仍应以绿色为主",
-            "sourceUrl": "https://www.vill.shirakawa.lg.jp/secure/1259/s2-018.jpg",
-            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/02-faeef41aabcc.webp",
-            "displayTitle": "合掌造与金色水田"
+            "role": "season",
+            "displayTitle": "合掌屋与成熟稻田",
+            "subject": "成熟稻田前的合掌造民居与绿色山坡，用近景突出白川乡初秋最有辨识度的“合掌屋＋收获季田野”组合",
+            "seasonConstraint": "2009年9月21日实拍；适合作为9月底至10月上旬的近似季相参考，避免使用10月下旬满山红叶或冬季雪景替代",
+            "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Ogi_Shirakawa10n4272.jpg",
+            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/02-9f73e2b73ebd.webp"
           },
           {
             "slot": 3,
-            "role": "season",
-            "subject": "波斯菊前的合掌造民居，突出夏末初秋而非红叶高峰",
-            "seasonConstraint": "优先9月底至10月上旬可见的初秋花草与绿色山林，不使用晚秋红叶图",
-            "sourceUrl": "https://www.vill.shirakawa.lg.jp/secure/1259/s2-067.jpg",
-            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/03-8b67cd35b3a1.webp",
-            "displayTitle": "波斯菊与合掌造"
+            "role": "landmark",
+            "displayTitle": "明善寺钟楼门",
+            "subject": "明善寺钟楼门、茅葺建筑、金黄色稻田与绿色山林同框，展示聚落不只有合掌民居，还有完整的传统山村建筑景观",
+            "seasonConstraint": "2009年9月21日实拍；前景稻田已进入成熟期、山体仍以绿色为主，与目标窗口大概率景观接近，不作为2026年红叶或稻收进度证明",
+            "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Myozenji_Ogi_Shirakawa14s3s4592.jpg",
+            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/03-74e7d938f0f2.webp"
           },
           {
             "slot": 4,
-            "role": "landmark",
-            "subject": "和田家合掌造的大屋顶和木构外观",
-            "seasonConstraint": "此槽位用于建筑本体识别，不以背景季相作为季节证据；正式页面若可替换，应优先选择9月底至10月上旬实拍",
-            "sourceUrl": "https://shirakawa-go.gr.jp/datas/cache/images/2023/06/03/1079x715_ea1e9d427fb5664c32c517a73e421e58_23766984d887fecc7775777af31e6f140e010508.jpg",
-            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/04-1c6f4a26e921.webp",
-            "displayTitle": "和田家合掌造"
+            "role": "experience",
+            "displayTitle": "合掌造民家园",
+            "subject": "合掌造民家园中的大型茅葺民居近景，突出陡峭屋顶、木构尺度以及可以近距离进入传统建筑参观的体验",
+            "seasonConstraint": "2009年9月21日实拍；周围植被仍以绿色为主，符合9月底至10月上旬的主要色调，建筑体验本身不依赖红叶季",
+            "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gasshodukuri-minkaen01n4272.jpg",
+            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/04-2e2b20ff854f.webp"
           }
         ],
-        "note": "已选图均来自白川村役场或白川乡观光协会官方站点；其中秋收图为2023年9月的季节参考，只用于说明典型季相，不能证明2026年同日景观。上线前应按官方照片借用／网站使用规则再次确认授权、署名和二次使用条件，并将最终素材保存为站点本地资源。"
+        "note": "本组素材均为 Wikimedia Commons 收录的2009年9月21日白川乡实拍，用于呈现目标窗口附近的初秋收获季景观，不用于证明2026年的具体稻收或红叶进度。本地化后继续保留原始 sourceUrl；正式发布和对外复用前应在对应文件说明页核对作者、许可协议与署名要求。"
       },
       "sources": [
         {
