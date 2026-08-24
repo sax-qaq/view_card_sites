@@ -1,0 +1,8 @@
+services:
+  web:
+    build:
+      context: .
+    container_name: view-card-sites
+    restart: unless-stopped
+    ports:
+      - "80:3000"

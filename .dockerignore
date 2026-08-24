@@ -1,0 +1,7 @@
+.git
+.openai
+.sites-runtime
+.wrangler
+node_modules
+dist
+npm-debug.log*
