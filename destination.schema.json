@@ -94,7 +94,7 @@
       "properties": {
         "status": { "enum": ["asset_selection_pending", "ready"] },
         "requiredCount": { "type": "object", "additionalProperties": false, "required": ["min", "max"], "properties": { "min": { "type": "integer", "minimum": 1 }, "max": { "type": "integer", "minimum": 1 } }, "description": "图片数量范围。" },
-        "requirements": { "type": "array", "minItems": 1, "items": { "type": "object", "additionalProperties": false, "required": ["slot", "role", "subject", "seasonConstraint", "sourceUrl"], "properties": { "slot": { "type": "integer", "minimum": 1 }, "role": { "enum": ["hero", "landscape", "experience", "season", "landmark", "optional"] }, "subject": { "type": "string", "minLength": 1 }, "seasonConstraint": { "type": "string", "minLength": 1 }, "sourceUrl": { "type": ["string", "null"], "format": "uri", "description": "已选图片的直接地址；尚未选图时为 null。" } } } },
+        "requirements": { "type": "array", "minItems": 1, "items": { "type": "object", "additionalProperties": false, "required": ["slot", "role", "subject", "seasonConstraint", "assetUrl", "sourceUrl"], "properties": { "slot": { "type": "integer", "minimum": 1 }, "role": { "enum": ["hero", "landscape", "experience", "season", "landmark", "optional"] }, "subject": { "type": "string", "minLength": 1 }, "seasonConstraint": { "type": "string", "minLength": 1 }, "assetUrl": { "type": ["string", "null"], "pattern": "^/assets/images/destinations/", "description": "本地化后的带内容哈希站内静态图片地址；研究阶段为 null。" }, "sourceUrl": { "type": ["string", "null"], "format": "uri", "description": "原始图片的直接来源地址；本地化后仍须保留。" } } } },
         "note": { "type": "string", "minLength": 1 }
       }
     },

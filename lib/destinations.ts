@@ -56,6 +56,7 @@ export type Destination = {
       role: "hero" | "landscape" | "experience" | "season" | "landmark" | "optional";
       subject: string;
       seasonConstraint: string;
+      assetUrl: string | null;
       sourceUrl: string | null;
     }>;
     note: string;

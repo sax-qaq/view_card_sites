@@ -80,7 +80,7 @@
           ],
           "distanceKm": {
             "min": 3.8,
-            "max": 4.0,
+            "max": 4,
             "approximate": true
           },
           "officialWalkingTime": "约75–80分钟",
@@ -132,35 +132,40 @@
             "role": "hero",
             "subject": "梓川 + 穗高连峰 + 绿黄交错山体",
             "seasonConstraint": "秋季实景，色彩状态比深秋满山金黄更接近9月底至10月上旬，可作为首屏主图",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=115"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=115",
+            "assetUrl": "/assets/images/destinations/kamikochi/01-e83d0968b180.webp"
           },
           {
             "slot": 2,
             "role": "experience",
             "subject": "梓川沿岸步道 + 绿黄交错植被",
             "seasonConstraint": "用于展示实际徒步环境，植被仍保留较多绿色，适合作为国庆季节预期",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=78"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=78",
+            "assetUrl": "/assets/images/destinations/kamikochi/02-446c11e1f84b.webp"
           },
           {
             "slot": 3,
             "role": "season",
             "subject": "明神桥 + 山体秋色",
             "seasonConstraint": "用于展示初秋山色和延伸路线环境，不应暗示已经进入深秋极盛状态",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=117"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=117",
+            "assetUrl": "/assets/images/destinations/kamikochi/03-001eaaa8d711.webp"
           },
           {
             "slot": 4,
             "role": "landmark",
             "subject": "大正池 + 穗高群峰倒影",
             "seasonConstraint": "仅作为大正池地点识别和体验说明，不用于表达国庆期间植被颜色",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=110"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=110",
+            "assetUrl": "/assets/images/destinations/kamikochi/04-2abe52e5439f.webp"
           },
           {
             "slot": 5,
             "role": "landmark",
             "subject": "河童桥 + 梓川 + 穗高连峰",
             "seasonConstraint": "仅作为河童桥地点识别图，不用于表达国庆期间实际季节状态",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=86"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=86",
+            "assetUrl": "/assets/images/destinations/kamikochi/05-fd3a7ae20e51.webp"
           }
         ],
         "note": "图片来自松本市官方观光网站图库，外链已确认当前可以直接访问。正式站点建议下载为本地资源，避免运行时热链。松本市官方图库存在使用条款和申请要求，公开发布前应再次确认授权条件。"

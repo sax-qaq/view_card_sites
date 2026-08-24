@@ -47,9 +47,19 @@ export default function Home() {
   const comparisons = detail.segmentAnalysis?.comparisons.filter(
     comparison => comparison.destinationIds.includes(destination.id),
   ) ?? [];
+  const galleryItem = destination.gallery.requirements[imageIndex];
   const selectedVote = votes[destination.id];
 
-  useEffect(() => { try { setVotes(JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}")); } catch { setVotes({}); } }, []);
+  useEffect(() => {
+    const frameId = window.requestAnimationFrame(() => {
+      try {
+        setVotes(JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"));
+      } catch {
+        setVotes({});
+      }
+    });
+    return () => window.cancelAnimationFrame(frameId);
+  }, []);
   const voteOptions = useMemo(() => VOTE_OPTIONS, []);
   function vote(value: VoteId) { const next = {...votes, [destination.id]: value}; setVotes(next); localStorage.setItem(STORAGE_KEY, JSON.stringify(next)); }
   function resetVotes() { setVotes({}); localStorage.removeItem(STORAGE_KEY); setCopyState("复制我的选择"); }
@@ -67,7 +77,14 @@ export default function Home() {
     <header className="site-header"><div><p className="eyebrow">旅の候補 · TRIP SHORTLIST</p><h1>{detail.segmentAnalysis?.segmentLabel ?? "目的地候选"}</h1></div><div className="count"><b>{activeIndex + 1}</b><span>/ {destinations.length}</span></div></header>
     <section className="card-shell" aria-live="polite"><article className="destination-card">
       <div className="gallery">
-        <div className={`placeholder placeholder-${imageIndex + 1}`}><div className="mountain-mark" aria-hidden="true"><span/><span/></div><div className="image-label"><small>{destination.gallery.requirements[imageIndex].role.toUpperCase()} · 季节实景待补</small><strong>{destination.gallery.requirements[imageIndex].subject}</strong><span>{destination.gallery.requirements[imageIndex].seasonConstraint}</span></div></div>
+        <div className={`placeholder placeholder-${imageIndex + 1}`}><div className="mountain-mark" aria-hidden="true"><span/><span/></div></div>
+        {galleryItem.assetUrl && (
+          // Images are pre-optimized WebP assets; keeping a plain img avoids runtime transformation.
+          // eslint-disable-next-line @next/next/no-img-element
+          <img key={galleryItem.assetUrl} className="gallery-photo" src={galleryItem.assetUrl} alt={galleryItem.subject} loading={imageIndex === 0 ? "eager" : "lazy"} decoding="async" fetchPriority={imageIndex === 0 ? "high" : "auto"} onError={event => { event.currentTarget.hidden = true; }} />
+        )}
+        <div className="gallery-shade" aria-hidden="true" />
+        <div className="image-label"><small>{galleryItem.role.toUpperCase()} · {galleryItem.assetUrl ? "真实图片" : "季节实景待补"}</small><strong>{galleryItem.subject}</strong><span>{galleryItem.seasonConstraint}</span></div>
         <button className="gallery-arrow left" onClick={() => setImageIndex((imageIndex - 1 + destination.gallery.requirements.length) % destination.gallery.requirements.length)} aria-label="上一张图片">‹</button>
         <button className="gallery-arrow right" onClick={() => setImageIndex((imageIndex + 1) % destination.gallery.requirements.length)} aria-label="下一张图片">›</button>
         <div className="gallery-topline"><span>PHOTO {String(imageIndex + 1).padStart(2,"0")}</span><span>{destination.region}</span></div>

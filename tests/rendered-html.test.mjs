@@ -30,5 +30,9 @@ test("renders destination content and metadata", async () => {
   assert.match(html, /<title>2026 日本国庆｜目的地候选<\/title>/);
   assert.match(html, /<h1>名古屋 → 立山黑部<\/h1>/);
   assert.match(html, /<h2>上高地<\/h2>/);
+  assert.match(html, /class="gallery-photo"/);
+  assert.match(html, /src="\/assets\/images\/destinations\/kamikochi\/01-[a-f0-9]{12}\.webp"/);
+  assert.match(html, /loading="eager"/);
+  assert.doesNotMatch(html, /<img[^>]+src="https?:\/\//);
   assert.match(html, /等待全部候选目的地资料齐备后统一生成/);
 });

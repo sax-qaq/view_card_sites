@@ -48,6 +48,8 @@
 
 - `destinations.json`：当前数据集合，包含 `destinations`、`segmentAnalyses` 和 `segmentDecisions`。
 - `lib/destinations.ts`：数据类型以及第一轮、第二轮页面派生方法。
+- `public/assets/images/destinations/<destination-id>/`：由 ECS 直接提供的带内容哈希目的地 WebP 图片。
+- 图片条目的 `sourceUrl` 永久保留原始来源，`assetUrl` 指向网站实际使用的本地静态资源。AI 研究时只填写 `sourceUrl`，导入项目后运行 `npm run images:localize` 生成 `assetUrl`；不要用本地化地址覆盖来源地址。
 
 ## 完整工作流
 
@@ -254,6 +256,14 @@ npm run dev
 ```bash
 npm run build
 ```
+
+新增或更新目的地图片后，在构建前执行离线本地化：
+
+```bash
+npm run images:localize
+```
+
+脚本会保持原始来源 URL，按目的地写入 `public/assets/images/destinations/`，最长边限制为 1600px（不放大小图），并生成适合网页传输的 WebP。文件名包含内容哈希，因此可安全使用框架原生的一年 `immutable` 浏览器缓存；运行时不会下载、代理或转换任何外部图片。
 
 ## ECS 部署
 
