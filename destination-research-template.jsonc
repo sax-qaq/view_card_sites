@@ -1,0 +1,124 @@
+{
+  // 目的地事实格式版本
+  "schemaVersion": "2.0",
+  // 稳定且唯一的英文 ID，录入后不要随意修改
+  "id": "destination-id",
+  // 目的地的中文、日文和英文名称
+  "name": { "zh": "待填写", "ja": "待填写", "en": "To be filled" },
+  // 目的地类型，例如自然、山景、文化、美食
+  "categories": ["待填写"],
+  // 所属县市和地理区域
+  "region": "待填写",
+  "overview": {
+    // 一句话说明这个目的地是什么
+    "oneLine": "待填写",
+    // 最直观、最能吸引朋友的核心卖点
+    "hook": "待填写",
+    // 必须正好三个代表性体验
+    "topExperiences": ["待填写一", "待填写二", "待填写三"],
+    // 第一轮卡片使用的直觉标签
+    "tags": [{ "emoji": "📍", "label": "待填写" }]
+  },
+  "season": {
+    // 本次研究针对的季节窗口，不代表所属路段
+    "targetWindow": { "label": "国庆", "startMonthDay": "09-30", "endMonthDay": "10-07" },
+    // 季节匹配度：1 最差，5 最好
+    "rating": 1,
+    // 目标日期所处的季节阶段
+    "stage": "待填写",
+    // 目标日期的季节表现摘要
+    "summary": "待填写",
+    // 目标日期大概率能看到的实际景象
+    "whatYouLikelySee": ["待填写"],
+    // 需要避免的宣传图、花期或红叶期误导
+    "misleadingExpectation": "待填写",
+    // 历史气温量级和数据边界，不得伪装成天气预报
+    "temperatureContext": "待填写",
+    // 对应季节的穿衣建议
+    "clothing": "待填写"
+  },
+  "visit": {
+    // 这个目的地不可替代的游览价值
+    "coreSellingPoint": "待填写",
+    // 最低合理游览时长
+    "minimumDuration": "待填写",
+    // 理想游览时长
+    "idealDuration": "待填写",
+    // 体力要求：1 最轻松，5 最费体力
+    "physicalRating": 1,
+    // 天气敏感度：1 影响小，5 影响大
+    "weatherSensitivityRating": 1,
+    // 目的地自身的行李限制和处理建议
+    "luggage": "待填写",
+    "typicalRoute": {
+      // 最具代表性的路线名称
+      "name": "待填写",
+      // 按游览顺序排列的站点
+      "stops": ["待填写"],
+      // 距离单位为公里；approximate 表示是否为约数
+      "distanceKm": { "min": 0, "max": 0, "approximate": true },
+      // 官方给出的纯步行时间
+      "officialWalkingTime": "待填写",
+      // 包含停留和拍照的现实游玩时间
+      "realisticVisitTime": "待填写",
+      // 可选延伸路线；如无，明确填写“无”
+      "extension": "待填写"
+    },
+    "overnight": {
+      // 住宿对景观体验的提升：1～5
+      "sceneryValueRating": 1,
+      // 住宿对行程效率的提升：1～5
+      "itineraryEfficiencyRating": 1,
+      // 住一晚的具体额外价值
+      "value": "待填写"
+    }
+  },
+  "access": {
+    // 常见进入方向，只写目的地通用交通，不计算本次路段代价
+    "mainEntrances": ["待填写"],
+    // 已核验的开放、封路或运营季信息
+    "operatingSeason": "待填写"
+  },
+  "fit": {
+    // 适合的人群或偏好
+    "goodFor": ["待填写"],
+    // 可能不适合的人群或偏好
+    "notFor": ["待填写"]
+  },
+  "bookingRisk": {
+    // 只能填写低、中、高
+    "level": "低",
+    // 预约、排队、营业或关闭风险摘要
+    "summary": "待填写",
+    // 后续需要再次核验的内容
+    "note": "待填写"
+  },
+  "gallery": {
+    // 待选图填 asset_selection_pending，素材完成填 ready
+    "status": "asset_selection_pending",
+    // 期望图片数量范围
+    "requiredCount": { "min": 3, "max": 5 },
+    // 每个图片位置的主题和季节要求
+    "requirements": [{ "slot": 1, "role": "hero", "subject": "待填写", "seasonConstraint": "优先 9 月底至 10 月上旬实景" }],
+    // 图片版权、本地化和来源说明
+    "note": "最终图片应保存为站点本地资源，并记录来源和版权条件"
+  },
+  "sources": [
+    {
+      // 来源标题
+      "title": "待填写",
+      // 直接来源网址
+      "url": "https://example.com/",
+      // official、official_transport 或 reference
+      "type": "official",
+      // 这个来源具体支持哪些结论
+      "supports": ["待填写"]
+    }
+  ],
+  "research": {
+    // 最后核验日期，格式 YYYY-MM-DD
+    "lastVerified": "2026-01-01",
+    // 数据边界、矛盾信息和仍需核验的事项
+    "note": "待填写"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "路段统一分析",
+  "description": "全部同路段目的地档案和旅行主表齐备后生成的客观分析。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "tripId", "segmentId", "segmentLabel", "candidateDestinationIds", "status", "prerequisites", "analyzedAt", "destinationEvaluations", "comparisons", "note"],
+  "properties": {
+    "schemaVersion": { "const": "1.0", "description": "路段分析格式版本。" },
+    "tripId": { "type": "string", "minLength": 1, "description": "所属旅行 ID。" },
+    "segmentId": { "type": "string", "minLength": 1, "description": "所属路段 ID。" },
+    "segmentLabel": { "type": "string", "minLength": 1, "description": "路段可读名称。" },
+    "candidateDestinationIds": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 }, "description": "本次统一分析的全部候选 ID。" },
+    "status": { "enum": ["waiting_for_destinations", "waiting_for_trip_context", "ready", "stale"], "description": "资料等待、分析完成或结果已过期。" },
+    "prerequisites": { "$ref": "#/$defs/prerequisites" },
+    "analyzedAt": { "type": ["string", "null"], "format": "date", "description": "正式分析日期；未完成时为 null。" },
+    "destinationEvaluations": { "type": "array", "items": { "$ref": "#/$defs/destinationEvaluation" }, "description": "每个候选在本路段中的独立表现。" },
+    "comparisons": { "type": "array", "items": { "$ref": "#/$defs/comparison" }, "description": "同路段候选的两两比较。" },
+    "note": { "type": "string", "minLength": 1, "description": "分析边界和待办事项。" }
+  },
+  "$defs": {
+    "ratingOrNull": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 },
+    "nonNegativeIntegerOrNull": { "type": ["integer", "null"], "minimum": 0 },
+    "strings": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "prerequisites": {
+      "type": "object", "additionalProperties": false,
+      "required": ["destinationProfilesComplete", "tripContextComplete", "missingDestinationIds", "note"],
+      "properties": {
+        "destinationProfilesComplete": { "type": "boolean", "description": "是否已提供全部候选的完整目的地档案。" },
+        "tripContextComplete": { "type": "boolean", "description": "是否已提供日期、前后住宿和已购交通等旅行主表信息。" },
+        "missingDestinationIds": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 }, "description": "仍缺少完整档案的候选 ID。" },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "destinationEvaluation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["destinationId", "routeIntegration", "segmentFit"],
+      "properties": {
+        "destinationId": { "type": "string", "minLength": 1 },
+        "routeIntegration": { "$ref": "#/$defs/routeIntegration" },
+        "segmentFit": { "$ref": "#/$defs/segmentFit" }
+      }
+    },
+    "routeIntegration": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "traffic", "requiresHotelChange", "luggagePlan", "note"],
+      "properties": {
+        "status": { "enum": ["pending_master_sheet", "evaluated"] },
+        "traffic": {
+          "type": "object", "additionalProperties": false,
+          "required": ["summary", "estimatedDurationMinutes", "estimatedCostYen", "transfers"],
+          "properties": {
+            "summary": { "type": "string", "minLength": 1 },
+            "estimatedDurationMinutes": { "$ref": "#/$defs/nonNegativeIntegerOrNull" },
+            "estimatedCostYen": { "$ref": "#/$defs/nonNegativeIntegerOrNull" },
+            "transfers": { "$ref": "#/$defs/nonNegativeIntegerOrNull" }
+          }
+        },
+        "requiresHotelChange": { "type": ["boolean", "null"] },
+        "luggagePlan": { "type": "string", "minLength": 1 },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "segmentFit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["scheduleFitRating", "routeEfficiencyRating", "strengths", "weaknesses", "summary"],
+      "properties": {
+        "scheduleFitRating": { "$ref": "#/$defs/ratingOrNull" },
+        "routeEfficiencyRating": { "$ref": "#/$defs/ratingOrNull" },
+        "strengths": { "$ref": "#/$defs/strings" },
+        "weaknesses": { "$ref": "#/$defs/strings" },
+        "summary": { "type": "string", "minLength": 1 }
+      }
+    },
+    "comparison": {
+      "type": "object", "additionalProperties": false,
+      "required": ["destinationIds", "destinationNames", "overlapLevel", "sharedCharacteristics", "difference", "relativeAssessments"],
+      "properties": {
+        "destinationIds": { "type": "array", "minItems": 2, "maxItems": 2, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "destinationNames": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "type": "string", "minLength": 1 } },
+        "overlapLevel": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "sharedCharacteristics": { "$ref": "#/$defs/strings" },
+        "difference": { "type": "string", "minLength": 1 },
+        "relativeAssessments": {
+          "type": "array", "minItems": 2, "maxItems": 2,
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["destinationId", "advantages", "disadvantages"],
+            "properties": {
+              "destinationId": { "type": "string", "minLength": 1 },
+              "advantages": { "$ref": "#/$defs/strings" },
+              "disadvantages": { "$ref": "#/$defs/strings" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

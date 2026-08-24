@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0",
+  "tripId": "japan-national-day-2026",
+  "segmentId": "segment-id",
+  "segmentAnalysisAnalyzedAt": "2026-01-01",
+  "status": "decided",
+  "decidedAt": "2026-01-01",
+  "voteSummary": {
+    "participantCount": 0,
+    "destinationResults": [
+      {
+        "destinationId": "destination-a",
+        "counts": { "love": 0, "okay": 0, "neutral": 0, "skip": 0 },
+        "averageScore": null
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "destinationId": "destination-a",
+      "grade": "A",
+      "recommendation": "keep",
+      "summary": "待填写",
+      "reasons": ["待填写"]
+    }
+  ]
+}

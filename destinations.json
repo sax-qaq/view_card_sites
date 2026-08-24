@@ -1,61 +1,13 @@
 {
-  "meta": {
-    "schemaVersion": "1.0",
-    "title": "2026 日本国庆｜名古屋 → 立山黑部目的地候选",
-    "tripWindow": "2026-09-30/2026-10-07",
-    "segment": "名古屋 → 立山黑部 中段",
-    "audience": "同行朋友第一轮独立筛选 + 行程规划者第二层查看详情",
-    "lastUpdated": "2026-08-23",
-    "voteOptions": [
-      {
-        "id": "love",
-        "label": "很想去",
-        "emoji": "😍",
-        "score": 3
-      },
-      {
-        "id": "okay",
-        "label": "可以",
-        "emoji": "🙂",
-        "score": 2
-      },
-      {
-        "id": "neutral",
-        "label": "无所谓",
-        "emoji": "😐",
-        "score": 1
-      },
-      {
-        "id": "skip",
-        "label": "不想去",
-        "emoji": "🙅",
-        "score": 0
-      }
-    ],
-    "dataRules": [
-      "朋友筛选层优先展示直觉信息，不默认展示路线推荐结论，避免锚定。",
-      "季节图片与季节描述必须匹配 9 月底至 10 月上旬，不得用 10 月下旬极盛红叶图冒充国庆实景。",
-      "涉及已确定行程、前后住宿、交通代价、是否换宿等字段，必须以《2026日本国庆旅行主表.xlsx》为准。",
-      "routeIntegration.status=pending_master_sheet 时，前端显示“待结合主表计算”，不得自行补全。",
-      "动态交通、预约、营业信息保留来源和核验日期。"
-    ]
-  },
+  "schemaVersion": "2.0",
   "destinations": [
     {
+      "schemaVersion": "2.0",
       "id": "kamikochi",
-      "name": {
-        "zh": "上高地",
-        "ja": "上高地",
-        "en": "Kamikochi"
-      },
-      "type": [
-        "自然",
-        "山景",
-        "轻徒步"
-      ],
+      "name": { "zh": "上高地", "ja": "上高地", "en": "Kamikochi" },
+      "categories": ["自然", "山景", "轻徒步"],
       "region": "长野县松本市 / 北阿尔卑斯",
-      "status": "candidate",
-      "friendCard": {
+      "overview": {
         "oneLine": "北阿尔卑斯山谷里的高山自然景区",
         "hook": "几乎不用真正爬山，就能在河谷里看到清澈梓川、森林和 3000m 级穗高群峰。",
         "topExperiences": [
@@ -64,221 +16,151 @@
           "河童桥看梓川与穗高连峰"
         ],
         "tags": [
-          {
-            "emoji": "🏔️",
-            "label": "高山河谷"
-          },
-          {
-            "emoji": "🥾",
-            "label": "轻徒步"
-          },
-          {
-            "emoji": "🍁",
-            "label": "初秋"
-          },
-          {
-            "emoji": "📷",
-            "label": "风景摄影"
-          }
-        ],
-        "season": {
-          "rating": 4,
-          "summary": "国庆期间已进入秋色，但通常还不是 10 月中下旬那种整片金黄落叶松的极盛状态。",
-          "whatYouLikelySee": [
-            "较高山坡的红黄叶已经明显",
-            "谷底仍可能呈绿、黄交错",
-            "穗高裸岩、梓川和森林仍是画面的主体"
-          ],
-          "misleadingExpectation": "不要用 10 月下旬满屏黄金落叶松的宣传照代表 10 月 1–7 日。"
-        },
-        "costAtGlance": {
-          "minimumTime": "4–5 小时",
-          "idealTime": "6–8 小时 / 1 天",
-          "walking": "经典大正池→河童桥约 3.8–4.0 km；纯步行约 75–80 分钟，游玩实际通常 3–4 小时",
-          "physicalRating": 2,
-          "weatherSensitivityRating": 4,
-          "luggage": "不适合拖大箱完成经典步行路线"
-        },
-        "independentVerdictPrompt": "只看这个目的地本身，你有多想去？"
+          { "emoji": "🏔️", "label": "高山河谷" },
+          { "emoji": "🥾", "label": "轻徒步" },
+          { "emoji": "🍁", "label": "初秋" },
+          { "emoji": "📷", "label": "风景摄影" }
+        ]
       },
-      "detail": {
+      "season": {
+        "targetWindow": { "label": "国庆", "startMonthDay": "09-30", "endMonthDay": "10-07" },
+        "rating": 4,
+        "stage": "初秋 → 红叶季开始",
+        "summary": "国庆期间已进入秋色，但通常还不是 10 月中下旬那种整片金黄落叶松的极盛状态。",
+        "whatYouLikelySee": [
+          "较高山坡的红黄叶已经明显",
+          "谷底仍可能呈绿、黄交错",
+          "穗高裸岩、梓川和森林仍是画面的主体"
+        ],
+        "misleadingExpectation": "不要用 10 月下旬满屏黄金落叶松的宣传照代表 10 月 1–7 日。",
+        "temperatureContext": "官方 10 月历史平均最高约 12.5°C、最低约 3.6°C；仅作穿衣量级参考，不是具体日期天气预报。",
+        "clothing": "建议抓绒/薄羽绒 + 防风外层；早晨不要按名古屋市区秋装估计。"
+      },
+      "visit": {
         "coreSellingPoint": "河流 + 森林湿地 + 3000m 级岩峰背景，而且经典游览几乎不需要明显爬升。",
-        "minimumReasonableStay": "半天 / 4–5h",
-        "idealStay": "6–8h / 一整天",
+        "minimumDuration": "半天 / 4–5 小时",
+        "idealDuration": "6–8 小时 / 一整天",
+        "physicalRating": 2,
+        "weatherSensitivityRating": 4,
+        "luggage": "大箱不建议随身进入经典步行线；最终应结合住宿与下一站设计寄存或行李转运。",
         "typicalRoute": {
           "name": "大正池 → 河童桥经典线",
-          "stops": [
-            "大正池",
-            "田代池・田代湿原",
-            "田代桥・穗高桥",
-            "梓川沿岸",
-            "河童桥"
-          ],
-          "distanceKm": "约 3.8–4.0",
+          "stops": ["大正池", "田代池・田代湿原", "田代桥・穗高桥", "梓川沿岸", "河童桥"],
+          "distanceKm": { "min": 3.8, "max": 4.0, "approximate": true },
           "officialWalkingTime": "约 75–80 分钟",
           "realisticVisitTime": "约 3–4 小时（含停留、拍照）",
           "extension": "河童桥往明神方向延伸，往返再增加约 2–2.5 小时"
         },
-        "seasonality": {
-          "period": "2026-09-30/2026-10-07",
-          "stage": "初秋 → 红叶季开始",
-          "temperatureContext": "官方 10 月历史平均最高约 12.5°C、最低约 3.6°C；仅作穿衣量级参考，不是具体日期天气预报。",
-          "clothing": "建议抓绒/薄羽绒 + 防风外层；早晨不要按名古屋市区秋装估计。",
-          "rating": 4
-        },
-        "ratings": {
-          "physical": 2,
-          "weatherSensitivity": 4,
-          "overnightSceneryValue": 4,
-          "overnightItineraryEfficiency": 3
-        },
         "overnight": {
+          "sceneryValueRating": 4,
+          "itineraryEfficiencyRating": 3,
           "value": "住一晚最大的额外价值是清晨大正池、薄雾、水面倒影以及游客较少的河谷；只看核心景观则可日游。"
-        },
-        "access": {
-          "mainEntrances": [
-            "西侧：高山 → 平汤温泉 → 上高地",
-            "东侧：松本 → 新岛岛 → 上高地"
-          ],
-          "operatingSeason2026": "平汤—上高地线路已公布 2026-04-17 至 2026-11-15 运营。"
-        },
-        "routeIntegration": {
-          "status": "pending_master_sheet",
-          "trafficCost": "待结合主表中前一晚、后一晚与已购交通计算",
-          "requiresHotelChange": "待结合主表判断",
-          "displayText": "待结合主表计算"
-        },
-        "luggage": "大箱不建议随身进入经典步行线；最终应结合住宿与下一站设计寄存或行李转运。",
-        "overlap": {
-          "with": "立山黑部",
-          "level": 3,
-          "difference": "两者都是北阿尔卑斯山景，但上高地是谷底沿河轻徒步、仰视群峰；立山黑部更偏多段交通升至高海拔、高山台地/峡谷/工程景观。"
-        },
-        "goodFor": [
-          "喜欢自然",
-          "喜欢山景",
-          "愿意步行",
-          "摄影",
-          "想看日本阿尔卑斯但不想真正登山"
-        ],
-        "notFor": [
-          "对自然景观兴趣低",
-          "非常讨厌步行",
-          "整段旅程已经山景过量、希望增加城市或文化体验"
-        ],
-        "bookingRisk": {
-          "level": "中",
-          "summary": "景区本身无需门票；主要风险是旺季巴士排队与部分方向的预约规则。",
-          "note": "最终采用哪侧进入后，再按 2026 实际班次和预约规则复核。"
-        },
-        "plannerVerdict": {
-          "grade": "A",
-          "summary": "目的地自身价值和国庆季节匹配度都高，建议保留到共同段候选的下一轮。",
-          "showBeforeVote": false
         }
+      },
+      "access": {
+        "mainEntrances": ["西侧：高山 → 平汤温泉 → 上高地", "东侧：松本 → 新岛岛 → 上高地"],
+        "operatingSeason": "平汤—上高地线路已公布 2026-04-17 至 2026-11-15 运营。"
+      },
+      "fit": {
+        "goodFor": ["喜欢自然", "喜欢山景", "愿意步行", "摄影", "想看日本阿尔卑斯但不想真正登山"],
+        "notFor": ["对自然景观兴趣低", "非常讨厌步行", "整段旅程已经山景过量、希望增加城市或文化体验"]
+      },
+      "bookingRisk": {
+        "level": "中",
+        "summary": "景区本身无需门票；主要风险是旺季巴士排队与部分方向的预约规则。",
+        "note": "最终采用哪侧进入后，再按 2026 实际班次和预约规则复核。"
       },
       "gallery": {
         "status": "asset_selection_pending",
-        "requiredCount": "3–5",
+        "requiredCount": { "min": 3, "max": 5 },
         "requirements": [
-          {
-            "slot": 1,
-            "role": "hero",
-            "subject": "河童桥 / 梓川 + 穗高连峰",
-            "seasonConstraint": "优先 9 月底至 10 月上旬实景"
-          },
-          {
-            "slot": 2,
-            "role": "landscape",
-            "subject": "大正池 + 烧岳或穗高倒影",
-            "seasonConstraint": "优先 9 月底至 10 月上旬实景"
-          },
-          {
-            "slot": 3,
-            "role": "experience",
-            "subject": "梓川沿岸或田代湿原步道",
-            "seasonConstraint": "能看出实际游玩环境"
-          },
-          {
-            "slot": 4,
-            "role": "season",
-            "subject": "10 月上旬红黄叶状态",
-            "seasonConstraint": "不得用 10 月下旬极盛黄叶代替"
-          },
-          {
-            "slot": 5,
-            "role": "optional",
-            "subject": "明神池或清晨薄雾",
-            "seasonConstraint": "可选"
-          }
+          { "slot": 1, "role": "hero", "subject": "河童桥 / 梓川 + 穗高连峰", "seasonConstraint": "优先 9 月底至 10 月上旬实景" },
+          { "slot": 2, "role": "landscape", "subject": "大正池 + 烧岳或穗高倒影", "seasonConstraint": "优先 9 月底至 10 月上旬实景" },
+          { "slot": 3, "role": "experience", "subject": "梓川沿岸或田代湿原步道", "seasonConstraint": "能看出实际游玩环境" },
+          { "slot": 4, "role": "season", "subject": "10 月上旬红黄叶状态", "seasonConstraint": "不得用 10 月下旬极盛黄叶代替" },
+          { "slot": 5, "role": "optional", "subject": "明神池或清晨薄雾", "seasonConstraint": "可选" }
         ],
         "note": "最终站点建议把图片保存为站点本地 asset，而不是长期依赖外站热链。"
       },
       "sources": [
-        {
-          "title": "上高地公式｜河童橋",
-          "url": "https://www.kamikochi.or.jp/learn/spots/1319/",
-          "type": "official",
-          "supports": [
-            "核心景观",
-            "10月上旬进入红叶旺季"
-          ]
-        },
-        {
-          "title": "上高地公式｜上高地を歩く",
-          "url": "https://www.kamikochi.or.jp/enjoy/walking/",
-          "type": "official",
-          "supports": [
-            "经典路线距离",
-            "官方步行时间"
-          ]
-        },
-        {
-          "title": "上高地公式｜田代橋・穂高橋",
-          "url": "https://www.kamikochi.or.jp/learn/spots/1242/",
-          "type": "official",
-          "supports": [
-            "10月中旬落叶松黄叶表现"
-          ]
-        },
-        {
-          "title": "上高地公式｜田代池・田代湿原",
-          "url": "https://www.kamikochi.or.jp/learn/spots/621/",
-          "type": "official",
-          "supports": [
-            "田代池体验与位置"
-          ]
-        },
-        {
-          "title": "上高地公式｜季节信息",
-          "url": "https://www.kamikochi.or.jp/learn/season/",
-          "type": "official",
-          "supports": [
-            "10月历史温度"
-          ]
-        },
-        {
-          "title": "ALPICO｜平湯・上高地線",
-          "url": "https://www.alpico.co.jp/traffic/local/kamikochi/hirayu/",
-          "type": "official_transport",
-          "supports": [
-            "2026运营季"
-          ]
-        },
-        {
-          "title": "濃飛バス｜上高地線",
-          "url": "https://www.nouhibus.co.jp/route_bus/kamikochi-line/",
-          "type": "official_transport",
-          "supports": [
-            "平汤侧交通与乘车规则"
-          ]
-        }
+        { "title": "上高地公式｜河童橋", "url": "https://www.kamikochi.or.jp/learn/spots/1319/", "type": "official", "supports": ["核心景观", "10 月上旬进入红叶旺季"] },
+        { "title": "上高地公式｜上高地を歩く", "url": "https://www.kamikochi.or.jp/enjoy/walking/", "type": "official", "supports": ["经典路线距离", "官方步行时间"] },
+        { "title": "上高地公式｜田代橋・穂高橋", "url": "https://www.kamikochi.or.jp/learn/spots/1242/", "type": "official", "supports": ["10 月中旬落叶松黄叶表现"] },
+        { "title": "上高地公式｜田代池・田代湿原", "url": "https://www.kamikochi.or.jp/learn/spots/621/", "type": "official", "supports": ["田代池体验与位置"] },
+        { "title": "上高地公式｜季节信息", "url": "https://www.kamikochi.or.jp/learn/season/", "type": "official", "supports": ["10 月历史温度"] },
+        { "title": "ALPICO｜平湯・上高地線", "url": "https://www.alpico.co.jp/traffic/local/kamikochi/hirayu/", "type": "official_transport", "supports": ["2026 运营季"] },
+        { "title": "濃飛バス｜上高地線", "url": "https://www.nouhibus.co.jp/route_bus/kamikochi-line/", "type": "official_transport", "supports": ["平汤侧交通与乘车规则"] }
       ],
       "research": {
         "lastVerified": "2026-08-23",
-        "routeFactsVerifiedAgainstMasterSheet": false,
-        "note": "当前会话中未成功读取《2026日本国庆旅行主表.xlsx》，因此路线嵌入相关字段明确保持 pending。"
+        "note": "目的地自身信息已核验；与具体路段、住宿和已购交通有关的判断由路段评估维护。"
       }
     }
-  ]
+  ],
+  "segmentAnalyses": [
+    {
+      "schemaVersion": "1.0",
+      "tripId": "japan-national-day-2026",
+      "segmentId": "nagoya-to-tateyama-kurobe",
+      "segmentLabel": "名古屋 → 立山黑部",
+      "candidateDestinationIds": ["kamikochi", "tateyama-kurobe"],
+      "status": "waiting_for_destinations",
+      "prerequisites": {
+        "destinationProfilesComplete": false,
+        "tripContextComplete": false,
+        "missingDestinationIds": ["tateyama-kurobe"],
+        "note": "立山黑部完整目的地档案和旅行主表尚未录入，不能开始正式同路段分析。"
+      },
+      "analyzedAt": null,
+      "destinationEvaluations": [
+        {
+          "destinationId": "kamikochi",
+          "routeIntegration": {
+            "status": "pending_master_sheet",
+            "traffic": {
+              "summary": "待结合旅行主表中的前一晚、后一晚与已购交通计算",
+              "estimatedDurationMinutes": null,
+              "estimatedCostYen": null,
+              "transfers": null
+            },
+            "requiresHotelChange": null,
+            "luggagePlan": "待结合住宿与下一站设计寄存或行李转运",
+            "note": "当前未读取《2026 日本国庆旅行主表.xlsx》，不得自行补全。"
+          },
+          "segmentFit": {
+            "scheduleFitRating": null,
+            "routeEfficiencyRating": null,
+            "strengths": [],
+            "weaknesses": [],
+            "summary": "等待同路段候选和旅行主表齐备后统一评估。"
+          }
+        },
+        {
+          "destinationId": "tateyama-kurobe",
+          "routeIntegration": {
+            "status": "pending_master_sheet",
+            "traffic": {
+              "summary": "等待目的地档案和旅行主表",
+              "estimatedDurationMinutes": null,
+              "estimatedCostYen": null,
+              "transfers": null
+            },
+            "requiresHotelChange": null,
+            "luggagePlan": "等待目的地档案和旅行主表",
+            "note": "资料未齐，禁止评估。"
+          },
+          "segmentFit": {
+            "scheduleFitRating": null,
+            "routeEfficiencyRating": null,
+            "strengths": [],
+            "weaknesses": [],
+            "summary": "等待完整目的地档案。"
+          }
+        }
+      ],
+      "comparisons": [],
+      "note": "此前上高地与立山黑部的差异说明只作为初步研究线索；待两张完整目的地卡齐备后重新生成正式比较。"
+    }
+  ],
+  "segmentDecisions": []
 }

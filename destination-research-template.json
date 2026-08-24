@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "2.0",
+  "id": "destination-id",
+  "name": {
+    "zh": "待填写",
+    "ja": "待填写",
+    "en": "To be filled"
+  },
+  "categories": [
+    "待填写"
+  ],
+  "region": "待填写",
+  "overview": {
+    "oneLine": "待填写",
+    "hook": "待填写",
+    "topExperiences": [
+      "待填写一",
+      "待填写二",
+      "待填写三"
+    ],
+    "tags": [
+      {
+        "emoji": "📍",
+        "label": "待填写"
+      }
+    ]
+  },
+  "season": {
+    "targetWindow": {
+      "label": "国庆",
+      "startMonthDay": "09-30",
+      "endMonthDay": "10-07"
+    },
+    "rating": 1,
+    "stage": "待填写",
+    "summary": "待填写",
+    "whatYouLikelySee": [
+      "待填写"
+    ],
+    "misleadingExpectation": "待填写",
+    "temperatureContext": "待填写",
+    "clothing": "待填写"
+  },
+  "visit": {
+    "coreSellingPoint": "待填写",
+    "minimumDuration": "待填写",
+    "idealDuration": "待填写",
+    "physicalRating": 1,
+    "weatherSensitivityRating": 1,
+    "luggage": "待填写",
+    "typicalRoute": {
+      "name": "待填写",
+      "stops": [
+        "待填写"
+      ],
+      "distanceKm": {
+        "min": 0,
+        "max": 0,
+        "approximate": true
+      },
+      "officialWalkingTime": "待填写",
+      "realisticVisitTime": "待填写",
+      "extension": "待填写；如无延伸路线，明确填写无"
+    },
+    "overnight": {
+      "sceneryValueRating": 1,
+      "itineraryEfficiencyRating": 1,
+      "value": "待填写"
+    }
+  },
+  "access": {
+    "mainEntrances": [
+      "待填写"
+    ],
+    "operatingSeason": "待填写"
+  },
+  "fit": {
+    "goodFor": [
+      "待填写"
+    ],
+    "notFor": [
+      "待填写"
+    ]
+  },
+  "bookingRisk": {
+    "level": "低",
+    "summary": "待填写",
+    "note": "待填写"
+  },
+  "gallery": {
+    "status": "asset_selection_pending",
+    "requiredCount": {
+      "min": 3,
+      "max": 5
+    },
+    "requirements": [
+      {
+        "slot": 1,
+        "role": "hero",
+        "subject": "待填写",
+        "seasonConstraint": "优先 9 月底至 10 月上旬实景"
+      }
+    ],
+    "note": "最终图片应保存为站点本地资源，并记录来源和版权条件"
+  },
+  "sources": [
+    {
+      "title": "待填写",
+      "url": "https://example.com/",
+      "type": "official",
+      "supports": [
+        "待填写"
+      ]
+    }
+  ],
+  "research": {
+    "lastVerified": "2026-01-01",
+    "note": "待填写"
+  }
+}

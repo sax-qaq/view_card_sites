@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "完整目的地档案",
+  "description": "AI 搜索分析后必须返回的单个目的地完整数据；不得提交渲染层精简数据。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name", "categories", "region", "overview", "season", "visit", "access", "fit", "bookingRisk", "gallery", "sources", "research"],
+  "properties": {
+    "schemaVersion": { "const": "2.0", "description": "目的地档案格式版本。" },
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "description": "稳定且唯一的英文 ID。" },
+    "name": { "$ref": "#/$defs/name" },
+    "categories": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 }, "description": "目的地类型。" },
+    "region": { "type": "string", "minLength": 1, "description": "目的地所属地区。" },
+    "overview": { "$ref": "#/$defs/overview" },
+    "season": { "$ref": "#/$defs/season" },
+    "visit": { "$ref": "#/$defs/visit" },
+    "access": { "$ref": "#/$defs/access" },
+    "fit": { "$ref": "#/$defs/fit" },
+    "bookingRisk": { "$ref": "#/$defs/bookingRisk" },
+    "gallery": { "$ref": "#/$defs/gallery" },
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" }, "description": "支持档案事实的信息来源。" },
+    "research": { "$ref": "#/$defs/research" }
+  },
+  "$defs": {
+    "rating": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "strings": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "name": {
+      "type": "object", "additionalProperties": false, "required": ["zh", "ja", "en"],
+      "properties": {
+        "zh": { "type": "string", "minLength": 1, "description": "中文名。" },
+        "ja": { "type": "string", "minLength": 1, "description": "日文名。" },
+        "en": { "type": "string", "minLength": 1, "description": "英文名。" }
+      }
+    },
+    "overview": {
+      "type": "object", "additionalProperties": false, "required": ["oneLine", "hook", "topExperiences", "tags"],
+      "properties": {
+        "oneLine": { "type": "string", "minLength": 1, "description": "一句话介绍。" },
+        "hook": { "type": "string", "minLength": 1, "description": "核心吸引点。" },
+        "topExperiences": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "type": "string", "minLength": 1 }, "description": "三个代表体验。" },
+        "tags": { "type": "array", "minItems": 1, "items": { "type": "object", "additionalProperties": false, "required": ["emoji", "label"], "properties": { "emoji": { "type": "string", "minLength": 1 }, "label": { "type": "string", "minLength": 1 } } } }
+      }
+    },
+    "season": {
+      "type": "object", "additionalProperties": false, "required": ["targetWindow", "rating", "stage", "summary", "whatYouLikelySee", "misleadingExpectation", "temperatureContext", "clothing"],
+      "properties": {
+        "targetWindow": { "type": "object", "additionalProperties": false, "required": ["label", "startMonthDay", "endMonthDay"], "properties": { "label": { "type": "string", "minLength": 1 }, "startMonthDay": { "type": "string", "pattern": "^\\d{2}-\\d{2}$" }, "endMonthDay": { "type": "string", "pattern": "^\\d{2}-\\d{2}$" } }, "description": "本档案研究的季节窗口。" },
+        "rating": { "$ref": "#/$defs/rating", "description": "季节匹配度。" },
+        "stage": { "type": "string", "minLength": 1, "description": "季节阶段。" },
+        "summary": { "type": "string", "minLength": 1, "description": "季节表现摘要。" },
+        "whatYouLikelySee": { "$ref": "#/$defs/strings", "description": "大概率看到的景象。" },
+        "misleadingExpectation": { "type": "string", "minLength": 1, "description": "需要避免的误导预期。" },
+        "temperatureContext": { "type": "string", "minLength": 1, "description": "历史气温背景。" },
+        "clothing": { "type": "string", "minLength": 1, "description": "穿衣建议。" }
+      }
+    },
+    "visit": {
+      "type": "object", "additionalProperties": false, "required": ["coreSellingPoint", "minimumDuration", "idealDuration", "physicalRating", "weatherSensitivityRating", "luggage", "typicalRoute", "overnight"],
+      "properties": {
+        "coreSellingPoint": { "type": "string", "minLength": 1, "description": "核心游览价值。" },
+        "minimumDuration": { "type": "string", "minLength": 1, "description": "最低合理时长。" },
+        "idealDuration": { "type": "string", "minLength": 1, "description": "理想游览时长。" },
+        "physicalRating": { "$ref": "#/$defs/rating", "description": "体力要求。" },
+        "weatherSensitivityRating": { "$ref": "#/$defs/rating", "description": "天气敏感度。" },
+        "luggage": { "type": "string", "minLength": 1, "description": "行李建议。" },
+        "typicalRoute": { "$ref": "#/$defs/typicalRoute" },
+        "overnight": { "$ref": "#/$defs/overnight" }
+      }
+    },
+    "typicalRoute": {
+      "type": "object", "additionalProperties": false, "required": ["name", "stops", "distanceKm", "officialWalkingTime", "realisticVisitTime", "extension"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1, "description": "典型路线名。" },
+        "stops": { "$ref": "#/$defs/strings", "description": "有序站点。" },
+        "distanceKm": { "type": "object", "additionalProperties": false, "required": ["min", "max", "approximate"], "properties": { "min": { "type": "number", "minimum": 0 }, "max": { "type": "number", "minimum": 0 }, "approximate": { "type": "boolean" } }, "description": "公里距离范围。" },
+        "officialWalkingTime": { "type": "string", "minLength": 1, "description": "官方步行时间。" },
+        "realisticVisitTime": { "type": "string", "minLength": 1, "description": "实际游玩时间。" },
+        "extension": { "type": "string", "minLength": 1, "description": "延伸路线。" }
+      }
+    },
+    "overnight": {
+      "type": "object", "additionalProperties": false, "required": ["sceneryValueRating", "itineraryEfficiencyRating", "value"],
+      "properties": {
+        "sceneryValueRating": { "$ref": "#/$defs/rating", "description": "住宿景观价值。" },
+        "itineraryEfficiencyRating": { "$ref": "#/$defs/rating", "description": "住宿行程效率。" },
+        "value": { "type": "string", "minLength": 1, "description": "住一晚的实际价值。" }
+      }
+    },
+    "access": { "type": "object", "additionalProperties": false, "required": ["mainEntrances", "operatingSeason"], "properties": { "mainEntrances": { "$ref": "#/$defs/strings", "description": "常见进入方向。" }, "operatingSeason": { "type": "string", "minLength": 1, "description": "已核验的运营季。" } } },
+    "fit": { "type": "object", "additionalProperties": false, "required": ["goodFor", "notFor"], "properties": { "goodFor": { "$ref": "#/$defs/strings", "description": "适合的人群。" }, "notFor": { "$ref": "#/$defs/strings", "description": "不适合的人群。" } } },
+    "bookingRisk": { "type": "object", "additionalProperties": false, "required": ["level", "summary", "note"], "properties": { "level": { "enum": ["低", "中", "高"] }, "summary": { "type": "string", "minLength": 1 }, "note": { "type": "string", "minLength": 1 } } },
+    "gallery": {
+      "type": "object", "additionalProperties": false, "required": ["status", "requiredCount", "requirements", "note"],
+      "properties": {
+        "status": { "enum": ["asset_selection_pending", "ready"] },
+        "requiredCount": { "type": "object", "additionalProperties": false, "required": ["min", "max"], "properties": { "min": { "type": "integer", "minimum": 1 }, "max": { "type": "integer", "minimum": 1 } }, "description": "图片数量范围。" },
+        "requirements": { "type": "array", "minItems": 1, "items": { "type": "object", "additionalProperties": false, "required": ["slot", "role", "subject", "seasonConstraint"], "properties": { "slot": { "type": "integer", "minimum": 1 }, "role": { "enum": ["hero", "landscape", "experience", "season", "optional"] }, "subject": { "type": "string", "minLength": 1 }, "seasonConstraint": { "type": "string", "minLength": 1 } } } },
+        "note": { "type": "string", "minLength": 1 }
+      }
+    },
+    "source": { "type": "object", "additionalProperties": false, "required": ["title", "url", "type", "supports"], "properties": { "title": { "type": "string", "minLength": 1 }, "url": { "type": "string", "format": "uri" }, "type": { "enum": ["official", "official_transport", "reference"] }, "supports": { "$ref": "#/$defs/strings" } } },
+    "research": { "type": "object", "additionalProperties": false, "required": ["lastVerified", "note"], "properties": { "lastVerified": { "type": "string", "format": "date", "description": "最后核验日期。" }, "note": { "type": "string", "minLength": 1, "description": "研究边界和待核验事项。" } } }
+  }
+}

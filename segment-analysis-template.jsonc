@@ -1,0 +1,79 @@
+{
+  // 路段分析格式版本
+  "schemaVersion": "1.0",
+  // 所属旅行 ID
+  "tripId": "japan-national-day-2026",
+  // 所属路段 ID 和可读名称
+  "segmentId": "segment-id",
+  "segmentLabel": "待填写路段",
+  // 本次必须一起分析的全部候选 ID
+  "candidateDestinationIds": ["destination-a", "destination-b"],
+  // 资料齐备并完成分析后必须为 ready
+  "status": "ready",
+  "prerequisites": {
+    // 是否已经提供全部候选的完整 Destination
+    "destinationProfilesComplete": true,
+    // 是否已经提供前后住宿、已购交通和日期等旅行主表上下文
+    "tripContextComplete": true,
+    // 缺少的目的地 ID；齐备时为空数组
+    "missingDestinationIds": [],
+    // 资料完整性说明
+    "note": "全部候选档案和旅行主表已齐备"
+  },
+  // 正式分析日期；等待状态时为 null
+  "analyzedAt": "2026-01-01",
+  "destinationEvaluations": [
+    {
+      // 被评估的候选 ID
+      "destinationId": "destination-a",
+      "routeIntegration": {
+        // 正式分析必须为 evaluated
+        "status": "evaluated",
+        "traffic": {
+          // 结合路段前后节点后的交通摘要
+          "summary": "待填写",
+          // 预计交通分钟数、日元费用和换乘次数
+          "estimatedDurationMinutes": 0,
+          "estimatedCostYen": 0,
+          "transfers": 0
+        },
+        // 是否需要更换酒店
+        "requiresHotelChange": false,
+        // 结合本路段住宿和下一站后的行李方案
+        "luggagePlan": "待填写",
+        // 数据依据和限制
+        "note": "待填写"
+      },
+      "segmentFit": {
+        // 对当前路段时间安排的匹配度：1～5
+        "scheduleFitRating": 1,
+        // 对当前路线效率的匹配度：1～5
+        "routeEfficiencyRating": 1,
+        // 放进本路段后的优势和劣势
+        "strengths": ["待填写"],
+        "weaknesses": ["待填写"],
+        "summary": "待填写"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      // 一组比较只保存一次，两个 ID 顺序要和名称一致
+      "destinationIds": ["destination-a", "destination-b"],
+      "destinationNames": ["候选 A", "候选 B"],
+      // 体验重叠度：1 几乎不重叠，5 高度重叠
+      "overlapLevel": 1,
+      // 两者共同特征
+      "sharedCharacteristics": ["待填写"],
+      // 最重要的体验差异
+      "difference": "待填写",
+      // 分别从两个候选的视角写相对优劣势
+      "relativeAssessments": [
+        { "destinationId": "destination-a", "advantages": ["待填写"], "disadvantages": ["待填写"] },
+        { "destinationId": "destination-b", "advantages": ["待填写"], "disadvantages": ["待填写"] }
+      ]
+    }
+  ],
+  // 整段分析的边界和待办
+  "note": "待填写"
+}

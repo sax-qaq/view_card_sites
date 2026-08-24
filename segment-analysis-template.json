@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0",
+  "tripId": "japan-national-day-2026",
+  "segmentId": "segment-id",
+  "segmentLabel": "待填写路段",
+  "candidateDestinationIds": ["destination-a", "destination-b"],
+  "status": "ready",
+  "prerequisites": {
+    "destinationProfilesComplete": true,
+    "tripContextComplete": true,
+    "missingDestinationIds": [],
+    "note": "全部候选档案和旅行主表已齐备"
+  },
+  "analyzedAt": "2026-01-01",
+  "destinationEvaluations": [
+    {
+      "destinationId": "destination-a",
+      "routeIntegration": {
+        "status": "evaluated",
+        "traffic": {
+          "summary": "待填写",
+          "estimatedDurationMinutes": 0,
+          "estimatedCostYen": 0,
+          "transfers": 0
+        },
+        "requiresHotelChange": false,
+        "luggagePlan": "待填写",
+        "note": "待填写"
+      },
+      "segmentFit": {
+        "scheduleFitRating": 1,
+        "routeEfficiencyRating": 1,
+        "strengths": ["待填写"],
+        "weaknesses": ["待填写"],
+        "summary": "待填写"
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "destinationIds": ["destination-a", "destination-b"],
+      "destinationNames": ["候选 A", "候选 B"],
+      "overlapLevel": 1,
+      "sharedCharacteristics": ["待填写"],
+      "difference": "待填写",
+      "relativeAssessments": [
+        { "destinationId": "destination-a", "advantages": ["待填写"], "disadvantages": ["待填写"] },
+        { "destinationId": "destination-b", "advantages": ["待填写"], "disadvantages": ["待填写"] }
+      ]
+    }
+  ],
+  "note": "待填写"
+}

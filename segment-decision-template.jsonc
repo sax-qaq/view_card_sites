@@ -1,0 +1,39 @@
+{
+  // 最终决策格式版本
+  "schemaVersion": "1.0",
+  // 所属旅行和路段
+  "tripId": "japan-national-day-2026",
+  "segmentId": "segment-id",
+  // 必须引用本次决策所依据的 SegmentAnalysis.analyzedAt
+  "segmentAnalysisAnalyzedAt": "2026-01-01",
+  // 投票齐备并作出决定后为 decided
+  "status": "decided",
+  // 最终决策日期
+  "decidedAt": "2026-01-01",
+  "voteSummary": {
+    // 有效投票人数
+    "participantCount": 0,
+    "destinationResults": [
+      {
+        "destinationId": "destination-a",
+        // 四种评级的票数
+        "counts": { "love": 0, "okay": 0, "neutral": 0, "skip": 0 },
+        // 按 love=3、okay=2、neutral=1、skip=0 计算；无投票时为 null
+        "averageScore": null
+      }
+    ]
+  },
+  "decisions": [
+    {
+      "destinationId": "destination-a",
+      // 综合等级 A、B、C、D
+      "grade": "A",
+      // keep 保留、hold 待定、drop 淘汰
+      "recommendation": "keep",
+      // 最终规划结论
+      "summary": "待填写",
+      // 必须同时考虑客观路段分析和朋友投票
+      "reasons": ["待填写"]
+    }
+  ]
+}
