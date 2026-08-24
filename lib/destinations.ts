@@ -54,6 +54,7 @@ export type Destination = {
     requirements: Array<{
       slot: number;
       role: "hero" | "landscape" | "experience" | "season" | "landmark" | "optional";
+      displayTitle?: string;
       subject: string;
       seasonConstraint: string;
       assetUrl: string | null;

@@ -105,6 +105,8 @@
         "slot": 1,
         // hero、landscape、experience、season、landmark 或 optional
         "role": "hero",
+        // 图片叠加展示标题：只写具体地点或体验名称，建议 4～16 字；不要写判断依据、季节分析或完整句子
+        "displayTitle": "具体地点或体验名称",
         // 图片应展示的主体
         "subject": "待填写",
         // 图片需要符合的季节条件

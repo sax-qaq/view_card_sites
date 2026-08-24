@@ -50,6 +50,7 @@
 - `lib/destinations.ts`：数据类型以及第一轮、第二轮页面派生方法。
 - `public/assets/images/destinations/<destination-id>/`：由 ECS 直接提供的带内容哈希目的地 WebP 图片。
 - 图片条目的 `sourceUrl` 永久保留原始来源，`assetUrl` 指向网站实际使用的本地静态资源。AI 研究时只填写 `sourceUrl`，导入项目后运行 `npm run images:localize` 生成 `assetUrl`；不要用本地化地址覆盖来源地址。
+- 图片条目的 `displayTitle` 是图片上真正展示的人工精简标题，只写具体地点或体验名称（建议 4～16 字）；`subject` 和 `seasonConstraint` 保留完整选图依据，但不会叠加显示在图片上。每次从主表导出时需人工检查 `displayTitle`，不要把分析过程复制进去。
 
 ## 完整工作流
 

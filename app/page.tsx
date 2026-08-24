@@ -72,6 +72,11 @@ export default function Home() {
     setCopyState("✓ 已复制");
     window.setTimeout(() => setCopyState("复制我的选择"), 1600);
   }
+  function selectDestination(index: number) {
+    setActiveIndex(index);
+    setImageIndex(0);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 
   return <main>
     <header className="site-header"><div><p className="eyebrow">旅の候補 · TRIP SHORTLIST</p><h1>{detail.segmentAnalysis?.segmentLabel ?? "目的地候选"}</h1></div><div className="count"><b>{activeIndex + 1}</b><span>/ {destinations.length}</span></div></header>
@@ -84,7 +89,7 @@ export default function Home() {
           <img key={galleryItem.assetUrl} className="gallery-photo" src={galleryItem.assetUrl} alt={galleryItem.subject} loading={imageIndex === 0 ? "eager" : "lazy"} decoding="async" fetchPriority={imageIndex === 0 ? "high" : "auto"} onError={event => { event.currentTarget.hidden = true; }} />
         )}
         <div className="gallery-shade" aria-hidden="true" />
-        <div className="image-label"><small>{galleryItem.role.toUpperCase()} · {galleryItem.assetUrl ? "真实图片" : "季节实景待补"}</small><strong>{galleryItem.subject}</strong><span>{galleryItem.seasonConstraint}</span></div>
+        <div className="image-label"><small>{galleryItem.role.toUpperCase()} · {destination.name.zh}</small><strong>{galleryItem.displayTitle ?? galleryItem.subject}</strong></div>
         <button className="gallery-arrow left" onClick={() => setImageIndex((imageIndex - 1 + destination.gallery.requirements.length) % destination.gallery.requirements.length)} aria-label="上一张图片">‹</button>
         <button className="gallery-arrow right" onClick={() => setImageIndex((imageIndex + 1) % destination.gallery.requirements.length)} aria-label="下一张图片">›</button>
         <div className="gallery-topline"><span>PHOTO {String(imageIndex + 1).padStart(2,"0")}</span><span>{destination.region}</span></div>
@@ -116,7 +121,7 @@ export default function Home() {
         </details>
       </div>
     </article></section>
-    {destinations.length > 1 && <nav className="destination-nav" aria-label="目的地切换"><button disabled={activeIndex===0} onClick={() => {setActiveIndex(activeIndex-1);setImageIndex(0)}}>← 上一个</button><button disabled={activeIndex===destinations.length-1} onClick={() => {setActiveIndex(activeIndex+1);setImageIndex(0)}}>下一个 →</button></nav>}
+    {destinations.length > 1 && <nav className="destination-nav" aria-label="目的地切换"><button disabled={activeIndex===0} onClick={() => selectDestination(activeIndex - 1)}>← 上一个</button><button disabled={activeIndex===destinations.length-1} onClick={() => selectDestination(activeIndex + 1)}>下一个 →</button></nav>}
     <section className="summary-panel"><p className="eyebrow">MY SHORTLIST</p><h2>我的选择</h2><div className="summary-groups">{voteOptions.map(option => { const names=destinations.filter(item => votes[item.id]===option.id).map(item => item.name.zh); return <div key={option.id}><span>{option.emoji}</span><b>{option.label}</b><p>{names.length ? names.join("、") : "—"}</p></div>})}</div><div className="summary-actions"><button className="copy-button" onClick={copyVotes} disabled={!Object.keys(votes).length}>{copyState}</button><button className="reset-button" onClick={resetVotes} disabled={!Object.keys(votes).length}>重置选择</button></div><p className="storage-note">选择只保存在这台设备的浏览器中，无需登录。</p></section>
   </main>;
 }

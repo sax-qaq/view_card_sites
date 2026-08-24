@@ -133,7 +133,8 @@
             "subject": "梓川 + 穗高连峰 + 绿黄交错山体",
             "seasonConstraint": "秋季实景，色彩状态比深秋满山金黄更接近9月底至10月上旬，可作为首屏主图",
             "assetUrl": "/assets/images/destinations/kamikochi/01-e83d0968b180.webp",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=115"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=115",
+            "displayTitle": "梓川与穗高连峰"
           },
           {
             "slot": 2,
@@ -141,7 +142,8 @@
             "subject": "梓川沿岸步道 + 绿黄交错植被",
             "seasonConstraint": "用于展示实际徒步环境，植被仍保留较多绿色，适合作为国庆季节预期",
             "assetUrl": "/assets/images/destinations/kamikochi/02-446c11e1f84b.webp",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=78"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=78",
+            "displayTitle": "梓川沿岸步道"
           },
           {
             "slot": 3,
@@ -149,7 +151,8 @@
             "subject": "明神桥 + 山体秋色",
             "seasonConstraint": "用于展示初秋山色和延伸路线环境，不应暗示已经进入深秋极盛状态",
             "assetUrl": "/assets/images/destinations/kamikochi/03-001eaaa8d711.webp",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=117"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=117",
+            "displayTitle": "明神桥初秋山色"
           },
           {
             "slot": 4,
@@ -157,7 +160,8 @@
             "subject": "大正池 + 穗高群峰倒影",
             "seasonConstraint": "仅作为大正池地点识别和体验说明，不用于表达国庆期间植被颜色",
             "assetUrl": "/assets/images/destinations/kamikochi/04-2abe52e5439f.webp",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=110"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=110",
+            "displayTitle": "大正池与群峰倒影"
           },
           {
             "slot": 5,
@@ -165,7 +169,8 @@
             "subject": "河童桥 + 梓川 + 穗高连峰",
             "seasonConstraint": "仅作为河童桥地点识别图，不用于表达国庆期间实际季节状态",
             "assetUrl": "/assets/images/destinations/kamikochi/05-fd3a7ae20e51.webp",
-            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=86"
+            "sourceUrl": "https://visitmatsumoto.com/lsc/api/photo/?src=86",
+            "displayTitle": "河童桥与梓川"
           }
         ],
         "note": "图片来自松本市官方观光网站图库，外链已确认当前可以直接访问。正式站点建议下载为本地资源，避免运行时热链。松本市官方图库存在使用条款和申请要求，公开发布前应再次确认授权条件。"
@@ -386,7 +391,8 @@
             "subject": "新穗高双层缆车穿行于北阿尔卑斯山林之间，同时能看出高山地形与秋色，是最直接体现奥飞驒“山岳缆车”核心卖点的画面",
             "seasonConstraint": "岐阜县官方标注为秋季图片，画面仍保留较多绿色但已有明显红黄叶；可代表秋季体验，但目标窗口实际转色程度仍可能比照片更浅，不能将照片叶色视为9月30日至10月7日必然状态",
             "sourceUrl": "https://www.kankou-gifu.jp/lsc/api/photo/?src=1706",
-            "assetUrl": "/assets/images/destinations/okuhida-onsenkyo/01-c14730191a34.webp"
+            "assetUrl": "/assets/images/destinations/okuhida-onsenkyo/01-c14730191a34.webp",
+            "displayTitle": "新穗高双层缆车"
           },
           {
             "slot": 2,
@@ -394,7 +400,8 @@
             "subject": "西穗高口站AlpScape大型观景平台与正面的北阿尔卑斯山体，用来直观说明即使不登山也能获得非常接近群峰的视野",
             "seasonConstraint": "画面以绿色山林和裸岩山峰为主，不依赖成熟红叶，更接近9月底至10月初仍处秋色前段时可能看到的整体山体状态；实际能见度取决于当天云量",
             "sourceUrl": "https://www.harvestclub.com/Un/feature/travel/images/202604/wideimage1.jpg",
-            "assetUrl": "/assets/images/destinations/okuhida-onsenkyo/02-e2af2234ac31.webp"
+            "assetUrl": "/assets/images/destinations/okuhida-onsenkyo/02-e2af2234ac31.webp",
+            "displayTitle": "西穗高口展望台"
           },
           {
             "slot": 3,
@@ -402,7 +409,8 @@
             "subject": "新穗高之汤河畔野趣露天风吕，突出奥飞驒并非只有缆车，而是可以直接在山谷溪流旁泡温泉的目的地特征",
             "seasonConstraint": "该岐阜县官方图库图片标注为春夏，主要用于准确展示河谷露天风吕的空间形态；目标窗口的低海拔谷地仍可能保留大量绿色，但实际10月初可能已有更多初秋色，因此不将图片植被状态作为季节证据",
             "sourceUrl": "https://www.kankou-gifu.jp/lsc/api/photo/?src=1673",
-            "assetUrl": "/assets/images/destinations/okuhida-onsenkyo/03-dcc7cf4b9ea5.webp"
+            "assetUrl": "/assets/images/destinations/okuhida-onsenkyo/03-dcc7cf4b9ea5.webp",
+            "displayTitle": "新穗高之汤"
           }
         ],
         "note": "本轮已选定3张实际可访问图片，选图第一标准是能否代表奥飞驒最核心的“高山缆车＋2156米观景＋山谷露天温泉”风貌，而不是机械地只选官网来源。第1、3张来自岐阜县观光联盟官方图库，第2张来自东急Harvest Times 2026年奥飞驒专题。第1张虽然是官方秋季素材，但没有公开精确拍摄日期，因此不能用其叶色反推2026年国庆实际红叶程度；第3张官方标为春夏，用于展示温泉空间，不作为目标窗口植被证据。最终网站可将这些图片保存为本地资源，并保留各自来源页面记录。"
@@ -791,7 +799,8 @@
             "subject": "三町保存地区最具代表性的连续木造町屋与酒藏街景，直接体现飞驒高山的核心城市风貌",
             "seasonConstraint": "画面季节特征较弱，适合代表9月底至10月初；不使用深秋红叶或雪景制造错误预期",
             "sourceUrl": "https://www.hida.jp/_res/projects/hida_jp/_page_/004/000/153/sanmachi.jpg",
-            "assetUrl": "/assets/images/destinations/hida-takayama/01-ea6a6e0f504b.webp"
+            "assetUrl": "/assets/images/destinations/hida-takayama/01-ea6a6e0f504b.webp",
+            "displayTitle": "三町古街"
           },
           {
             "slot": 2,
@@ -799,7 +808,8 @@
             "subject": "宫川朝市沿河摊位和当地农产品，体现高山不是只有建筑拍照而是仍有日常市场生活",
             "seasonConstraint": "图片为4月至11月正常营业季的代表性市场场景；植被不作为目标日期叶色判断依据",
             "sourceUrl": "https://www.hida.jp/_res/projects/hida_jp/_page_/004/000/162/asaichi.png",
-            "assetUrl": "/assets/images/destinations/hida-takayama/02-6f83d915c413.webp"
+            "assetUrl": "/assets/images/destinations/hida-takayama/02-6f83d915c413.webp",
+            "displayTitle": "宫川朝市"
           },
           {
             "slot": 3,
@@ -807,7 +817,8 @@
             "subject": "高山阵屋正门与历史建筑外观，体现高山作为幕府直辖地的城市历史层次",
             "seasonConstraint": "建筑主体为季节中性画面，可用于9月底至10月初；避免使用樱花或积雪版本",
             "sourceUrl": "https://jinya.gifu.jp/wp/wp-content/themes/original_theme/images/architecture/img_omotemon01.jpg",
-            "assetUrl": "/assets/images/destinations/hida-takayama/03-1aabf645aaaa.webp"
+            "assetUrl": "/assets/images/destinations/hida-takayama/03-1aabf645aaaa.webp",
+            "displayTitle": "高山阵屋"
           },
           {
             "slot": 4,
@@ -815,7 +826,8 @@
             "subject": "下二之町大新町保存地区较安静、生活化的木造街景，用于补充三町商业街之外的真实城镇质感",
             "seasonConstraint": "图片以常绿和建筑为主，没有明显深秋或冬季元素，适合作为目标窗口的街区风貌参考",
             "sourceUrl": "https://www.hida.jp/_res/projects/hida_jp/_page_/004/001/666/shimocho.jpg",
-            "assetUrl": "/assets/images/destinations/hida-takayama/04-71a03292c2d3.webp"
+            "assetUrl": "/assets/images/destinations/hida-takayama/04-71a03292c2d3.webp",
+            "displayTitle": "下二之町大新町"
           }
         ],
         "note": "本轮已实际选定4张可直接访问的代表性图片。选图首先考虑是否能直观表现高山的核心风貌和体验，其次检查是否会造成9月30日至10月7日的季节误导；三町、宫川朝市和下町图片来自高山市官方旅游站，高山阵屋图片来自岐阜县高山阵屋官网。图片本身并未全部标注精确拍摄日期，因此它们用于展示季节中性的目的地风貌，而不是证明2026年目标日期的叶色。制作网站时建议将图片下载为本地资源并保留原始来源记录。"
@@ -1175,7 +1187,8 @@
             "subject": "9月中旬官方实拍的秋收田野与合掌造，表现目标窗口最接近的“绿色山林＋收获季”基调",
             "seasonConstraint": "以9月下旬至10月上旬仍偏绿、田野进入收割期的画面为准；不能用深秋满山红叶或雪景替代",
             "sourceUrl": "https://shirakawa-go.gr.jp/datas/cache/images/2023/09/14/800x533_ea1e9d427fb5664c32c517a73e421e58_b1ee582168a94024697ca4bcf06833d9c6b53eaf.jpg",
-            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/01-253bb36e1bcb.webp"
+            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/01-253bb36e1bcb.webp",
+            "displayTitle": "秋收时节的合掌村"
           },
           {
             "slot": 2,
@@ -1183,7 +1196,8 @@
             "subject": "合掌造与金黄色水田的俯视田园景观",
             "seasonConstraint": "优先接近9月底的成熟稻田或刚收割田地，背景山林仍应以绿色为主",
             "sourceUrl": "https://www.vill.shirakawa.lg.jp/secure/1259/s2-018.jpg",
-            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/02-faeef41aabcc.webp"
+            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/02-faeef41aabcc.webp",
+            "displayTitle": "合掌造与金色水田"
           },
           {
             "slot": 3,
@@ -1191,7 +1205,8 @@
             "subject": "波斯菊前的合掌造民居，突出夏末初秋而非红叶高峰",
             "seasonConstraint": "优先9月底至10月上旬可见的初秋花草与绿色山林，不使用晚秋红叶图",
             "sourceUrl": "https://www.vill.shirakawa.lg.jp/secure/1259/s2-067.jpg",
-            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/03-8b67cd35b3a1.webp"
+            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/03-8b67cd35b3a1.webp",
+            "displayTitle": "波斯菊与合掌造"
           },
           {
             "slot": 4,
@@ -1199,7 +1214,8 @@
             "subject": "和田家合掌造的大屋顶和木构外观",
             "seasonConstraint": "此槽位用于建筑本体识别，不以背景季相作为季节证据；正式页面若可替换，应优先选择9月底至10月上旬实拍",
             "sourceUrl": "https://shirakawa-go.gr.jp/datas/cache/images/2023/06/03/1079x715_ea1e9d427fb5664c32c517a73e421e58_23766984d887fecc7775777af31e6f140e010508.jpg",
-            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/04-1c6f4a26e921.webp"
+            "assetUrl": "/assets/images/destinations/shirakawa-go-ogimachi/04-1c6f4a26e921.webp",
+            "displayTitle": "和田家合掌造"
           }
         ],
         "note": "已选图均来自白川村役场或白川乡观光协会官方站点；其中秋收图为2023年9月的季节参考，只用于说明典型季相，不能证明2026年同日景观。上线前应按官方照片借用／网站使用规则再次确认授权、署名和二次使用条件，并将最终素材保存为站点本地资源。"
@@ -1373,6 +1389,774 @@
       "research": {
         "lastVerified": "2026-08-24",
         "note": "本研究只评价白川乡荻町目的地本身，未使用所属路段、同行人时间或其他候选地做比较。季节结论来自白川村与观光协会的官方岁时资料及历史实景；2026年9月30日至10月7日的实际红叶进度、稻收进度和天气仍无法提前可靠确认，建议出发前3～7天再看白川乡实时影像与短期天气预报。交通与运营信息核验至2026-08-24：浓飞／岐阜巴士的班次和预约规则、展望台接驳车、民居营业日都可能在出行前调整；尤其せせらぎ停车场工程官方写明计划至2026-09-30且可能延期，必须临近复核。typicalRoute.distanceKm为依据官方地图道路尺度做的近似估算，不是官方公布的精确里程；官方仅提供若干分段步行时间。评分为基于本字段定义的研究判断：季节4/5强调秋收氛围好但未到红叶峰值；体力2/5因主体为村内步行且展望台可用接驳；天气敏感度3/5因雨雾会削弱展望台和摄影但不必然使村落无法游览；住宿景观价值4/5、效率价值2/5分别反映清晨傍晚氛围提升明显、但核心聚落本身可在半日完成。"
+      }
+    },
+    {
+      "schemaVersion": "2.0",
+      "id": "matsumoto",
+      "name": {
+        "zh": "松本",
+        "ja": "松本",
+        "en": "Matsumoto"
+      },
+      "categories": [
+        "古城",
+        "城下町",
+        "历史街区",
+        "文化",
+        "美食"
+      ],
+      "region": "长野县松本市中心・信州中部",
+      "overview": {
+        "oneLine": "以国宝松本城为核心、保留中町藏造商家街和绳手通等城下町肌理的北阿尔卑斯山麓城市。",
+        "hook": "最大的卖点不是只有一座城，而是能从日本现存最古老的五重六阶木造天守走出来，几分钟后继续逛河畔小街、白黑海鼠壁仓库、工艺店和荞麦店，把真正的古城和仍在生活的城下町一次走完。",
+        "topExperiences": [
+          "进入国宝松本城天守，在保存下来的木造内部攀登陡峭楼梯，从战国防御结构一路看到六层高处的松本市街与天气晴朗时的北阿尔卑斯",
+          "从松本城步行进入绳手通和四柱神社，再跨过女鸟羽川逛中町通，在步行尺度内连续体验城下町、河畔商店街和白黑海鼠壁仓库建筑",
+          "把信州荞麦、当地点心、咖啡馆、工艺与民艺店穿插进老城步行，在不是纯景区布景的市中心体验今天仍在使用的松本城下町"
+        ],
+        "tags": [
+          {
+            "emoji": "🏯",
+            "label": "国宝现存天守"
+          },
+          {
+            "emoji": "⚫",
+            "label": "漆黑松本城"
+          },
+          {
+            "emoji": "🏘️",
+            "label": "步行城下町"
+          },
+          {
+            "emoji": "🧱",
+            "label": "中町藏造街"
+          },
+          {
+            "emoji": "🥢",
+            "label": "信州荞麦"
+          }
+        ]
+      },
+      "season": {
+        "targetWindow": {
+          "label": "国庆",
+          "startMonthDay": "09-30",
+          "endMonthDay": "10-07"
+        },
+        "rating": 4,
+        "stage": "初秋前段，暑热明显退去、早晚转凉，但松本市中心仍明显早于红叶主体观赏期。",
+        "summary": "9月30日至10月7日对松本城下町步行本身是很舒服的季节窗口。JMA平年值显示白天最高气温约从23°C降到22°C，早晨最低约13°C降到11至12°C；松本市2026年官方季节指南也强调秋季城市适合轻外套和分层穿衣。不过这时不属于松本城公园的成熟红叶季，近年的官方实地记录显示即使到10月18日也只是零星开始转色，因此本窗口的季节价值主要来自凉爽步行、初秋空气和城下町本身，而不是枫叶。",
+        "whatYouLikelySee": [
+          "松本城公园的树木仍以绿色为主，少数树木可能开始轻微泛黄，整体不会是满园红叶",
+          "黑色天守、护城河、水面倒影与仍偏绿色的树木组成的初秋城郭景观；天气通透时背景可看到北阿尔卑斯，但能见度不能保证",
+          "中町通的白墙、黑色海鼠壁藏造建筑以及绳手通沿街木造店铺，这些核心街景几乎不依赖红叶",
+          "2026年实际访问时，松本城天守外周一部分将处于定期漆涂和外墙维护状态，可能看到脚手架和白色施工帐篷",
+          "如果在10月1日至3日经过绳手通旁四柱神社，神社年度行事表固定安排神道祭；但截至本轮核验尚未找到专门针对2026年的摊位、交通管制等详细执行公告"
+        ],
+        "misleadingExpectation": "不要用樱花季、雪后的北阿尔卑斯与松本城、或10月下旬至11月的浓烈红叶照片代表9月30日至10月7日。尤其需要注意2026年的特殊情况：松本城官网已经确认8月24日至10月31日进行天守定期维护，目标窗口完整落在施工期内，所以普通宣传图中完全无遮挡的天守外观不能视为2026年现场的准确预期。",
+        "temperatureContext": "日本气象厅松本站1991至2020年逐日平年值显示：9月30日平均17.2°C、日最高22.8°C、日最低12.8°C；10月1日约17.0/22.6/12.6°C；到10月7日约15.9/21.6/11.5°C。这些数字只说明历史气候量级，并不是2026年天气预报。松本昼夜温差明显，晴天白天与清晨、夜晚的体感差距可能较大。",
+        "clothing": "适合长裤加长袖、衬衫或薄针织，并随身带轻薄夹克、风衣等可脱穿外层。晴天中午连续步行时约22°C量级可能偏暖，但早晚约11至13°C时薄外套很有必要。松本城内部需要脱鞋并攀爬大量木楼梯，建议穿方便穿脱、抓地稳定的袜鞋组合；同时准备折叠伞或轻便防水层。最终应在出发前7至10天根据2026实际预报调整。"
+      },
+      "visit": {
+        "coreSellingPoint": "松本真正不可替代的是“原真现存天守＋仍可步行辨认的城下町”组合。松本城不是现代复原钢筋建筑，而是现存最古老的五重六阶木造天守；从城门出来后约几分钟就能进入绳手通和中町，历史遗产不是一个孤立景点，而是嵌在今天仍在生活和营业的城市中心。",
+        "minimumDuration": "约4小时；可完成松本城外观与天守内部、绳手通和中町通核心步行，但餐饮、购物和慢拍空间有限。",
+        "idealDuration": "约6至8小时，即完整半日至一天。官方市中心经典路线本身按8小时设计，若只聚焦松本城、绳手通和中町可略短；若加入松本市美术馆、咖啡馆或更多城下町街巷则适合完整一天。",
+        "physicalRating": 3,
+        "weatherSensitivityRating": 2,
+        "luggage": "松本市中心道路平缓，大部分街区拖行李并非物理上不可行，但进入天守和频繁逛小店明显不适合携带大件箱包。松本市官方FAQ确认松本站内共有6处投币寄存柜，但没有传统人工行李寄存处；松本城本丸庭园内也有寄存柜，如果满柜或大件放不下，可在松本城管理事务所付费寄存。因此合理做法是抵达后先在车站解决大件行李，再轻装步行。",
+        "typicalRoute": {
+          "name": "松本城下町经典步行线",
+          "stops": [
+            "JR松本站・城口",
+            "大名町通",
+            "松本城・本丸庭园・天守",
+            "松本城护城河",
+            "四柱神社",
+            "绳手通",
+            "中町通",
+            "JR松本站・城口"
+          ],
+          "distanceKm": {
+            "min": 3,
+            "max": 4,
+            "approximate": true
+          },
+          "officialWalkingTime": "官方没有为上述精简环线给出统一的纯步行总时间。已公布的直接分段包括松本站至松本城步行约15分钟、松本城至绳手通约5分钟、绳手通至中町通约1分钟、中町通至松本站约15分钟；仅这些点到点移动合计约36分钟，不包含环绕护城河、天守内部、逛街和停留时间。",
+          "realisticVisitTime": "约4至6小时。松本城官网给出的天守内部平均参观时间本身约45至60分钟，还需要加上购票或等候、庭园和护城河拍照；随后绳手通、中町通再安排约1.5至3小时较合理。周末或天守排队明显时应增加余量。",
+          "extension": "可从中町继续步行约10分钟至松本市美术馆，参观松本出身艺术家草间弥生相关常设展示；或者从松本城向北延伸至旧开智学校。"
+        },
+        "overnight": {
+          "sceneryValueRating": 2,
+          "itineraryEfficiencyRating": 3,
+          "value": "松本核心城下町并不依赖住宿才能完整体验，一天足够覆盖主景点，因此纯景观层面的住宿增益有限。住一晚的实际价值主要是可以在松本城8:30开门附近进入，避开部分日间客流，并在游客减少后吃晚餐、散步老城；松本官方FAQ也明确指出开场后不久和傍晚通常是相对空闲时段。"
+        }
+      },
+      "access": {
+        "mainEntrances": [
+          "JR松本站：从东京方向可乘JR东日本特急Azusa从新宿直达，松本市2026年官方交通指南给出的典型时间约2小时30分钟，Azusa为全车指定席",
+          "JR松本站：从名古屋方向可乘JR东海特急Shinano直达，松本市2026年官方交通指南给出的典型时间约2小时；列车设自由席，但官方建议繁忙时预约指定席",
+          "松本巴士总站：位于松本站城口附近，高速巴士连接新宿、名古屋、大阪、飞驒高山等方向",
+          "信州松本机场：有札幌、福冈、神户等国内航线，机场至松本市中心官方给出的巴士或出租车交通量级约30分钟"
+        ],
+        "operatingSeason": "松本市中心、中町通和绳手通属于全年城市街区，其中绳手通365天为步行者专用区，但各店铺营业日独立。松本城除12月29日至31日外原则全年开放；截至2026年8月24日，目标窗口适用通常营业时间8:30至17:00，16:30停止入场。需要特别注意的是，松本城官网已于2026年8月24日再次确认：8月24日至10月31日进行天守、乾小天守、渡橹、辰巳附橹及月见橹的漆和外墙定期维护，天守内部仍正常参观，但月见橹部分区域因漆干燥不能进入，天守外周一部分会被施工脚手架和白色帐篷遮挡；工期可能因气候变化而调整。"
+      },
+      "fit": {
+        "goodFor": [
+          "喜欢日本现存古城、木构建筑、武家历史而不满足于只看复原城的人",
+          "喜欢把核心景点、老街、咖啡馆和地方饮食集中在一个可步行城区里的人",
+          "喜欢街头摄影、护城河倒影、黑白建筑和城下町细节的人",
+          "愿意登陡峭楼梯，想真正进入古天守内部而不是只拍外观的人",
+          "对信州荞麦、工艺、民艺和地方小店有兴趣的人"
+        ],
+        "notFor": [
+          "把9月30日至10月7日的主要期待设定成市区红叶的人，这一窗口明显早于松本城公园常见转色阶段",
+          "2026年特别在意拍摄完全无遮挡松本城正面建筑照的人，因为目标窗口已经确认处在外墙定期维护期",
+          "膝踝活动困难、恐高或无法使用陡梯，同时又把进入天守内部作为必要体验的人；松本城内部约有140级楼梯，最大坡度约61度，且无法进行现代化无障碍改造",
+          "完全不喜欢古城、传统街区和博物馆，只期待强自然景观或大型娱乐项目的人"
+        ]
+      },
+      "bookingRisk": {
+        "level": "低",
+        "summary": "松本城没有必须提前抢购才能入场的制度，现场纸票仍然销售，因此核心景点不存在高票务风险。不过天守出于安全限制会控制内部人数，繁忙日期可能出现排队；松本市官方FAQ甚至提示红叶季等高峰时可能超过1小时。现在提供按时间入场的电子票，成人电子票1200日元、现场纸票1300日元，可减少购票和入场环节的不确定性。",
+        "note": "电子票截至当前可提前购买未来3个月的时段，购买后不能更改、取消或退款；即使持有电子票，天守内部因狭窄楼梯和安全人数限制仍可能出现短暂等待。2026年10月3日至4日为周末，如果选择该时段，建议提前查看官方2026拥挤预测日历并购买时间指定电子票。另需在临近访问时再次确认8月24日至10月31日维护工程是否因天气调整范围或日期。"
+      },
+      "gallery": {
+        "status": "ready",
+        "requiredCount": {
+          "min": 3,
+          "max": 5
+        },
+        "requirements": [
+          {
+            "slot": 1,
+            "role": "hero",
+            "displayTitle": "松本城天守",
+            "subject": "护城河倒影中的漆黑松本城天守，直接体现松本最具辨识度的国宝古城形象",
+            "seasonConstraint": "该图没有樱花、积雪或深秋红叶等强季节元素，可用于表达9月底至10月初的目的地核心风貌；但它展示的是无遮挡状态，2026目标日期现场将有部分脚手架和白色施工帐篷",
+            "sourceUrl": "https://visitmatsumoto.com/lsc/upfile/spot/0000/1001/1001_3_l.jpg",
+            "assetUrl": "/assets/images/destinations/matsumoto/01-904a8cf1b524.webp"
+          },
+          {
+            "slot": 2,
+            "role": "landscape",
+            "displayTitle": "中町通",
+            "subject": "中町通两侧连续的白墙、黑色海鼠壁藏造商家建筑和可步行街道，用于体现松本并非只有一座城",
+            "seasonConstraint": "画面植被以绿叶和极少量轻微转色为主，没有成熟红叶，视觉上与9月底至10月上旬的城市初秋状态较协调",
+            "sourceUrl": "https://visitmatsumoto.com/lsc/upfile/spot/0000/1082/1082_1_l.jpg",
+            "assetUrl": "/assets/images/destinations/matsumoto/02-3db9e0aa8bba.webp"
+          },
+          {
+            "slot": 3,
+            "role": "experience",
+            "displayTitle": "绳手通",
+            "subject": "绳手通窄小步行街、木造商铺和真实逛街人流，体现松本城下町轻松、生活化的一面",
+            "seasonConstraint": "图片以绿色树木和日常街景为主，不借用红叶或樱花强化季节，适合作为目标窗口的体验参考",
+            "sourceUrl": "https://visitmatsumoto.com/lsc/upfile/spot/0000/1083/1083_1_l.jpg",
+            "assetUrl": "/assets/images/destinations/matsumoto/03-c7b20350f291.webp"
+          },
+          {
+            "slot": 4,
+            "role": "optional",
+            "displayTitle": "松本城外墙维护",
+            "subject": "松本城定期外墙维护时脚手架与白色覆盖物的官方示例，用于让行程制定者理解2026目标窗口实际可能遇到的视觉影响",
+            "seasonConstraint": "这是松本城官方2026维护公告使用的维护示例图片，并非2026年9月30日至10月7日现场实时照片；只能用于说明施工形态，不能据此判断届时具体哪一面被遮挡",
+            "sourceUrl": "https://www.matsumoto-castle.jp/wp/wp-content/uploads/2023/08/IMG_9811.jpeg",
+            "assetUrl": "/assets/images/destinations/matsumoto/04-63efa8cbca1b.webp"
+          }
+        ],
+        "note": "本轮图片不是按照“官网来源优先即必须入选”的逻辑机械选择，而是优先覆盖最能让行程参与者理解松本的四个关键信息：松本城本体、中町藏造街区、绳手通生活感，以及2026目标日期真实存在的维护影响。前三张来自松本市官方旅游站且没有明显错误季节元素；第4张是松本城2026维护公告所使用的官方示例图。最终网页应将图片保存为本地资源并保留来源记录。"
+      },
+      "sources": [
+        {
+          "title": "Matsumoto Castle | Matsumoto City Official Tourism Website",
+          "url": "https://visitmatsumoto.com/en/spot/detail_1001.html",
+          "type": "official",
+          "supports": [
+            "松本城是国宝以及现存最古老五重六阶天守的定位",
+            "黑色天守与北阿尔卑斯背景这一核心景观",
+            "松本站至松本城步行约15分钟或Town Sneaker约10分钟",
+            "通常8:30至17:00、16:30停止入场的基础营业信息",
+            "overview和visit.coreSellingPoint中的古城价值",
+            "gallery第1张图片的来源页面"
+          ]
+        },
+        {
+          "title": "观览案内 | 国宝 松本城",
+          "url": "https://www.matsumoto-castle.jp/info",
+          "type": "official",
+          "supports": [
+            "2026当前电子票成人1200日元、现场纸票1300日元",
+            "电子票为时间指定票、现场纸票不可指定时间",
+            "通常开放8:30至17:00、16:30停止入场，12月29日至31日闭城",
+            "天守平均内部参观时间约45至60分钟",
+            "内部约140级楼梯、最大坡度约61度",
+            "physicalRating、minimumDuration和bookingRisk的依据"
+          ]
+        },
+        {
+          "title": "2026年8月24日至10月31日 松本城天守定期维护",
+          "url": "https://www.matsumoto-castle.jp/topics/10043.html",
+          "type": "official",
+          "supports": [
+            "2026年8月24日至10月31日实施天守漆和外墙定期维护",
+            "目标窗口完整落在施工计划期内",
+            "天守内部仍可正常进入",
+            "月见橹部分区域因漆干燥无法进入",
+            "外墙部分区域会被脚手架和白色施工帐篷覆盖",
+            "工期可能受天气影响而变化",
+            "season.misleadingExpectation、access.operatingSeason和research.note中2026最重要的动态限制",
+            "gallery第4张维护示例图片的来源"
+          ]
+        },
+        {
+          "title": "2026 Events & Crowd Calendar | Matsumoto Castle",
+          "url": "https://www.matsumoto-castle.jp/topics/7590.html",
+          "type": "official",
+          "supports": [
+            "2026年松本城提供官方拥挤预测日历",
+            "天守因安全控制入场人数而可能产生等待",
+            "官网会显示当前天守入口等待时间",
+            "bookingRisk中需在具体访问日前再次查询拥挤情况的结论"
+          ]
+        },
+        {
+          "title": "Timed Entry E-Tickets available | Matsumoto Castle",
+          "url": "https://www.matsumoto-castle.jp/topics/8173.html",
+          "type": "official",
+          "supports": [
+            "松本城提供时间指定电子票",
+            "电子票可减少购票和等待时间",
+            "当前可购买未来约3个月的电子票",
+            "购买后不可变更、取消或退款",
+            "bookingRisk.summary和note中的票务规则"
+          ]
+        },
+        {
+          "title": "Nawate Street | Matsumoto City Official Tourism Website",
+          "url": "https://visitmatsumoto.com/en/spot/detail_1083.html",
+          "type": "official",
+          "supports": [
+            "绳手通位于松本城南侧护城河与女鸟羽川之间的城下町位置关系",
+            "沿街传统商铺、鲷鱼烧、面包、冰淇淋及杂货等体验",
+            "绳手通365天为步行者专用区",
+            "松本站至绳手通步行约15分钟",
+            "overview.topExperiences和typicalRoute中的绳手通内容",
+            "gallery第3张图片来源"
+          ]
+        },
+        {
+          "title": "Nakamachi Street | Matsumoto City Official Tourism Website",
+          "url": "https://visitmatsumoto.com/en/spot/detail_1082.html",
+          "type": "official",
+          "supports": [
+            "中町在江户时期作为善光寺街道商人街繁荣的历史",
+            "火灾后形成的大量白黑海鼠壁藏造建筑",
+            "今天仍有民艺家具、工艺店、咖啡馆、餐馆和水井",
+            "松本站至中町步行约15分钟",
+            "overview.hook和topExperiences中的城下町体验",
+            "gallery第2张图片来源"
+          ]
+        },
+        {
+          "title": "Classic Itinerary: Day Trip in Downtown Matsumoto",
+          "url": "https://visitmatsumoto.com/en/course/detail_17.html",
+          "type": "official",
+          "supports": [
+            "松本市中心主要景点适合步行或公交串联",
+            "官方完整市中心经典路线总时长为8小时",
+            "官方路线顺序包含松本城、绳手通、中町通和松本市美术馆",
+            "松本城至绳手通约5分钟、绳手通至中町约1分钟",
+            "visit.idealDuration和typicalRoute.officialWalkingTime"
+          ]
+        },
+        {
+          "title": "Matsumoto FAQ | Matsumoto City Official Tourism Website",
+          "url": "https://visitmatsumoto.com/en/faq/index.html",
+          "type": "official",
+          "supports": [
+            "松本站内共有6处投币寄存柜且没有人工行李寄存处",
+            "松本城本丸庭园内设寄存柜，大件或满柜时管理事务所可付费寄存",
+            "旺季天守可能等待超过1小时",
+            "开场后不久和傍晚通常相对空闲",
+            "visit.luggage、overnight和bookingRisk中的相关结论"
+          ]
+        },
+        {
+          "title": "The charms of Matsumoto over the four seasons",
+          "url": "https://visitmatsumoto.com/en/article/detail_23.html",
+          "type": "official",
+          "supports": [
+            "2026年7月更新的松本季节与穿衣官方指南",
+            "秋季市区平均气温量级约15至23°C",
+            "秋季早晚温差较大、城市建议携带轻外套",
+            "season.summary和clothing中的总体季节判断"
+          ]
+        },
+        {
+          "title": "Signs that Autumn is arriving in Matsumoto",
+          "url": "https://blog.visitmatsumoto.com/en/seasonal-topics/signs-that-autumn-is-arriving-in-matsumoto-september/",
+          "type": "official",
+          "supports": [
+            "松本9月处于夏末向秋季转换阶段",
+            "9月对于著名红叶景象仍然偏早",
+            "season.stage中将9月底定义为初秋而非红叶季的辅助依据"
+          ]
+        },
+        {
+          "title": "松本城公园红叶信息 10月18日",
+          "url": "https://visitmatsumoto.com/nature/%E6%9D%BE%E6%9C%AC%E5%9F%8E%E5%85%AC%E5%9C%92%E7%B4%85%E8%91%89%E6%83%85%E5%A0%B110%E6%9C%8818%E6%97%A5/",
+          "type": "official",
+          "supports": [
+            "2025年10月18日松本城公园仍仅有部分树木开始零星转色的实地记录",
+            "9月30日至10月7日不应期待市区成熟红叶的判断",
+            "season.summary、whatYouLikelySee和misleadingExpectation"
+          ]
+        },
+        {
+          "title": "JMA Matsumoto Daily Climate Normals - September",
+          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_d.php?block_no=47618&day=&month=09&prec_no=48&view=p1s&year=",
+          "type": "official",
+          "supports": [
+            "1991至2020年松本站逐日气候平年值",
+            "9月30日平均17.2°C、最高22.8°C、最低12.8°C",
+            "season.temperatureContext中的历史气温量级"
+          ]
+        },
+        {
+          "title": "JMA Matsumoto Daily Climate Normals - October",
+          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_sfc_d.php?block_no=47618&day=&month=10&prec_no=48&view=p1s&year=",
+          "type": "official",
+          "supports": [
+            "1991至2020年松本站10月逐日气候平年值",
+            "10月1日平均17.0°C、最高22.6°C、最低12.6°C",
+            "10月7日平均15.9°C、最高21.6°C、最低11.5°C",
+            "season.temperatureContext和clothing中的目标窗口温度量级"
+          ]
+        },
+        {
+          "title": "How to get to Matsumoto: JR, Bus and Plane",
+          "url": "https://visitmatsumoto.com/en/article/detail_33.html",
+          "type": "official_transport",
+          "supports": [
+            "2026年3月更新的松本对外交通信息",
+            "新宿乘Azusa直达约2小时30分钟且全车指定席",
+            "名古屋乘Shinano直达约2小时",
+            "高速巴士连接新宿、名古屋、大阪和飞驒高山",
+            "信州松本机场至市区约30分钟",
+            "access.mainEntrances中的通用进入方向"
+          ]
+        },
+        {
+          "title": "Guide to Transportation in Matsumoto City",
+          "url": "https://visitmatsumoto.com/en/transportation",
+          "type": "official_transport",
+          "supports": [
+            "2026年3月更新的市内交通资料",
+            "松本市中心紧凑并适合步行或骑行",
+            "Town Sneaker北线连接松本城、东线连接中町和美术馆",
+            "2026年4月起部分松本市内公交支持Suica等交通IC卡",
+            "typicalRoute和市中心交通便利度的判断"
+          ]
+        },
+        {
+          "title": "四柱神社 年中祭事",
+          "url": "https://www.go.tvm.ne.jp/~yohasira/yosaiji.html",
+          "type": "official",
+          "supports": [
+            "四柱神社年度神道祭固定安排在10月1日至3日",
+            "10月1日为宵祭、2日为例祭、3日为松本市招魂殿祭等基本年度安排",
+            "season.whatYouLikelySee中目标窗口可能遇到秋祭氛围的依据",
+            "由于没有找到2026专项执行公告，本来源不支持具体2026露店数量或交通管制结论"
+          ]
+        },
+        {
+          "title": "国宝松本城 Photo Archive",
+          "url": "https://www.matsumoto-castle.jp/photo-archive",
+          "type": "official",
+          "supports": [
+            "松本城官方提供可下载的JPEG照片档案",
+            "官方要求使用照片时标注“照片提供：松本城管理课”",
+            "gallery素材可本地化保存并记录来源的处理方式"
+          ]
+        }
+      ],
+      "research": {
+        "lastVerified": "2026-08-24",
+        "note": "本研究仅评价松本市中心的松本城、绳手通、中町通等目的地自身体验，没有计算它在具体旅行路线中的绕行或与其他古城候选的重复度。最重要的2026专项信息是松本城管理课于2026年8月24日再次确认的天守定期维护：8月24日至10月31日进行漆和外墙施工，因此9月30日至10月7日整个研究窗口都落在计划施工期内。天守内部仍正常开放，但月见橹部分区域不能进入，天守外周一部分会有脚手架和白色施工帐篷；官方也注明工期可能受气候影响，所以真正到访前必须再次确认最新施工范围。这意味着普通旅游宣传图中的完整无遮挡城堡不能直接代表2026现场。季节方面，JMA逐日平年值显示目标窗口总体凉爽适合城市步行；但红叶明显偏早，2025年10月18日官方实地记录也仅称部分树木刚开始零星转色，因此没有将10月下旬宣传红叶图套用到国庆窗口。四柱神社官方年中祭事将神道祭固定在10月1日至3日，时间确实与目标窗口重叠，但截至本轮没有查到专门的2026摊位规模、表演、道路管制或临时营业公告，所以只将其作为可能出现的年度祭典氛围，不把具体活动细节写成已确认事实。typicalRoute.distanceKm是依据核心景点地理关系估算的3至4公里，并非官方公布路线里程；官方只提供若干分段步行时间和8小时完整市中心示范路线。gallery已实际填写4个可访问图片地址，其中前三张用于代表目的地核心风貌，第4张是2026维护公告所使用的官方施工示例；该维护照片并非目标日期现场实时照，因此只能说明脚手架和遮挡形式，不能预测届时确切施工位置。"
+      }
+    },
+    {
+      "schemaVersion": "2.0",
+      "id": "kisoji-nakasendo-magome-tsumago",
+      "name": {
+        "zh": "木曾路（中山道·马笼—妻笼）",
+        "ja": "木曽路（中山道・馬籠宿〜妻籠宿）",
+        "en": "Kisoji (Nakasendo: Magome–Tsumago)"
+      },
+      "categories": [
+        "古道徒步",
+        "历史街道",
+        "宿场町",
+        "山林",
+        "文化"
+      ],
+      "region": "木曾谷南部；长野县木曾郡南木曾町（妻笼）—岐阜县中津川市（马笼）",
+      "overview": {
+        "oneLine": "木曾路是中山道穿越木曾谷的一段历史街道，本条目聚焦最具代表性的马笼宿—马笼峠—妻笼宿徒步区间。",
+        "hook": "从石板坡上的江户宿场走入杉林和山路，真正翻过一座古驿道山口，再抵达保存完整的妻笼宿；核心体验不是“看古镇”，而是亲脚走一段旧中山道。",
+        "topExperiences": [
+          "沿马笼宿石板坡和木造街屋缓慢上行，在出发前感受仍保留宿场尺度的街景",
+          "从马笼宿翻越马笼峠，经一石栃立场茶屋、森林古道与男滝女滝一带完成约8公里旧中山道徒步",
+          "抵达妻笼宿后继续逛保存街区，并可进入脇本陣奥谷等历史建筑理解宿场生活"
+        ],
+        "tags": [
+          {
+            "emoji": "🥾",
+            "label": "古道徒步"
+          },
+          {
+            "emoji": "🏘️",
+            "label": "江户宿场"
+          },
+          {
+            "emoji": "🌲",
+            "label": "森林山路"
+          },
+          {
+            "emoji": "🛤️",
+            "label": "中山道"
+          }
+        ]
+      },
+      "season": {
+        "targetWindow": {
+          "label": "国庆",
+          "startMonthDay": "09-30",
+          "endMonthDay": "10-07"
+        },
+        "rating": 4,
+        "stage": "初秋徒步季；低海拔宿场与马笼峠沿线大体仍以绿色为主，红叶通常尚未进入高峰",
+        "summary": "9月30日至10月7日处在木曾路由夏末转入秋季的舒适徒步窗口。木曾观光官方秋季资料把妻笼、马笼一带的典型红叶观赏期放在10月下旬至11月前后，因此本窗口的主要价值是清凉的山路、绿色森林、苔藓与古宿场，而不是满山红叶；高处或个别阔叶树可能开始出现初步黄红色。",
+        "whatYouLikelySee": [
+          "马笼宿和妻笼宿背后的山体仍以深绿、青绿为主，街屋与石板路的对比很强",
+          "马笼峠沿线的杉木、桧木、苔藓和湿润石路仍是主要森林景观",
+          "部分阔叶树、秋草或庭院植物开始显出初秋颜色，但整体不会像10月下旬宣传照那样浓烈",
+          "晴天时空气较夏季清爽，适合长距离步行；雨后则可能出现更浓的苔色和湿润森林质感"
+        ],
+        "misleadingExpectation": "不要用10月下旬至11月的红叶宿场照来代表本窗口，也不要把冬季雪景、奈良井宿深秋红叶或御嶽山高海拔9月底红叶混同为马笼—妻笼的典型实景。9月30日至10月7日大概率仍是“绿意占主导的初秋古道”。",
+        "temperatureContext": "日本气象厅南木曾观测点1991—2020年日平年值显示：9月30日平均/日最高/日最低约16.9/23.1/12.8℃；10月1日约16.8/22.9/12.7℃，到10月7日约15.7/21.9/11.6℃。南木曾9月、10月月降水量平年值分别约264.1毫米和186.2毫米。以上是历史气候平年值，不是2026年天气预报；马笼峠海拔高于南木曾观测点，早晨、阴雨和风口体感可能更凉。",
+        "clothing": "建议速干长袖或短袖打底，外加可穿脱的薄抓绒/轻外套，并携带轻量防水外层。鞋比衣服更关键：选择抓地力较好的徒步鞋或越野鞋，避免光滑底休闲鞋；雨后石板路官方明确提醒会变滑。可带备用袜、帽子和小型日用背包。"
+      },
+      "visit": {
+        "coreSellingPoint": "把两座代表性宿场町与真正可步行的旧中山道连接成一个完整体验：石板街、山口、杉林、茶屋、瀑布和保存街区都在同一条连续路线中，能获得比单独逛古镇更强的“在路上”感。",
+        "minimumDuration": "半日，约4～5小时；仅适合完成单向徒步并快速浏览两端宿场",
+        "idealDuration": "1整天，约6～8小时；若希望住宿场并加入更从容的早晚散步，可安排1晚2日",
+        "physicalRating": 3,
+        "weatherSensitivityRating": 4,
+        "luggage": "不建议拖行李箱走马笼峠。2026年度妻笼—马笼手荷物定期运搬已确认在3月20日至11月30日运行：8:30～11:30在马笼观光案内所、马笼宿BASE、妻笼观光案内所或大妻笼部分住宿点办理，13:00～17:00取件，1,000日元/件。该服务正好覆盖目标窗口，适合把大件行李送到终点后轻装徒步；出发前仍应再次确认当天服务是否因天气或临时事项调整。",
+        "typicalRoute": {
+          "name": "中山道马笼宿→妻笼宿·马笼峠越",
+          "stops": [
+            "马笼宿",
+            "马笼峠",
+            "一石栃立场茶屋",
+            "男滝・女滝",
+            "大妻笼",
+            "妻笼宿",
+            "脇本陣奥谷／妻笼宿本阵一带"
+          ],
+          "distanceKm": {
+            "min": 8,
+            "max": 8.4,
+            "approximate": true
+          },
+          "officialWalkingTime": "官方口径略有差异：木曾御岳观光局称马笼—妻笼约8公里、悠闲步行约3小时；南木曾町官方示范路线按妻笼→大妻笼→一石栃→马笼峠→马笼的分段步行时间相加约2小时15分，基本不含参观、拍照和休息。",
+          "realisticVisitTime": "约5～7小时。把马笼宿和妻笼宿各留45～90分钟，加上途中茶屋、瀑布、拍照、补水和休息，基本就是一整天的主体活动；雨天应预留更多时间。",
+          "extension": "若再增加半天至一天，可沿JR中央本线方向继续看奈良井宿或木曾福岛；若只研究本核心徒步，则无需延伸。"
+        },
+        "overnight": {
+          "sceneryValueRating": 4,
+          "itineraryEfficiencyRating": 4,
+          "value": "住在妻笼或马笼的额外价值很具体：可以在日间游客尚未大量进入或商店17点前后陆续关门后感受更安静的宿场，并把8公里徒步放在第二天较早时段开始。妻笼官方住宿以小型旅馆、民宿为主，并提示多数设施非常传统、无温泉、部分房间无独立卫浴或门锁；这是体验的一部分，也意味着应提前确认接受度。"
+        }
+      },
+      "access": {
+        "mainEntrances": [
+          "南侧常用入口：JR中津川站转北惠那交通马笼线前往马笼宿，再从马笼向妻笼单向徒步",
+          "北侧常用入口：JR南木曾站转南木曾町地域巴士或出租车前往妻笼宿；南木曾站至妻笼出租车约10分钟，步行约40分钟",
+          "木曾谷纵向交通：JR中央本线连接盐尻、奈良井、木曾福岛、南木曾、中津川等节点，适合把木曾路不同宿场串联",
+          "高山／下吕方向：2026年4月1日至11月30日另有浓飞巴士高山・下吕⇆马笼・妻笼季节线路，每日班次很少且要求事前预约"
+        ],
+        "operatingSeason": "马笼—妻笼旧中山道不是统一售票、按季闭园的景区。2026年5月南木曾町观光协会修正资料明确说明男滝女滝附近旧中山道目前可通行；截至2026-08-24可查的最新官方通知中，没有发现核心马笼—妻笼路段新的长期封闭公告。但山路会受暴雨、台风、倒木、落石等临时影响，且2026年南木曾町已发布熊出没注意信息，官方建议徒步者携带会发声的铃并在出发前查询最新状态。目标窗口内，2026年度手荷物运搬和高山／下吕季节巴士均处在计划运营期。"
+      },
+      "fit": {
+        "goodFor": [
+          "喜欢徒步，但不追求高山登山难度的人",
+          "对江户时代交通史、宿场町和传统街景感兴趣的人",
+          "喜欢森林、苔藓、石板路和山村慢旅行的人",
+          "愿意用一整天把“古镇+步道”串成连续体验的人",
+          "比起满山红叶，更看重舒适气温和步行本身的人"
+        ],
+        "notFor": [
+          "只想短时间下车拍照、完全不想走坡路的人",
+          "膝踝状态不适合连续8公里上下坡和不平石路的人",
+          "把9月30日至10月7日的核心期待设为红叶全盛的人",
+          "不愿受公交时刻、行李转运截止时间约束的人",
+          "需要丰富夜生活、晚间餐饮或现代酒店设施的人"
+        ]
+      },
+      "bookingRisk": {
+        "level": "中",
+        "summary": "古道徒步本身无需预约，也没有统一门票；主要风险在住宿、公交衔接和服务时间。妻笼官方列出的传统旅馆/民宿数量有限，并注明住宿为完全预约制、官网空室信息并非实时；地域巴士和高山方向季节巴士班次不密集。好消息是2026年马笼—妻笼行李转运已经明确运行至11月30日。",
+        "note": "若计划住妻笼或马笼，应优先确认住宿；若只做日间徒步，至少在出发前1～2周再次核验北惠那交通马笼线、南木曾町地域巴士、JR列车衔接和2026手荷物运搬。前一晚还应核验降雨、步道临时封闭和熊出没信息。"
+      },
+      "gallery": {
+        "status": "ready",
+        "requiredCount": {
+          "min": 3,
+          "max": 5
+        },
+        "requirements": [
+          {
+            "slot": 1,
+            "role": "hero",
+            "displayTitle": "妻笼宿与山谷",
+            "subject": "妻笼一带深色木造街屋与仍以绿色为主的山体，突出宿场和山谷的整体气质",
+            "seasonConstraint": "优先9月底至10月上旬仍以绿色山体为主的街景，避免使用11月红叶全盛照",
+            "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60829ede26c248314874e19e/4db55a1b-363b-42f4-84db-5fedbfcbed75/KOTO_BW2018_048.jpg",
+            "assetUrl": "/assets/images/destinations/kisoji-nakasendo-magome-tsumago/01-6ab0a4113887.webp"
+          },
+          {
+            "slot": 2,
+            "role": "landmark",
+            "displayTitle": "马笼宿石板坡",
+            "subject": "马笼宿石板坡与木造街屋，表现徒步起点最鲜明的宿场风貌",
+            "seasonConstraint": "使用绿色或初秋背景，不以深秋红叶作为本窗口代表",
+            "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60829ede26c248314874e19e/1619256554779-HC8ZIFBCV80Z0KI2926F/Magome_774_515.jpg",
+            "assetUrl": "/assets/images/destinations/kisoji-nakasendo-magome-tsumago/02-6d62d4dab155.webp"
+          },
+          {
+            "slot": 3,
+            "role": "experience",
+            "displayTitle": "中山道森林古道",
+            "subject": "马笼—妻笼旧中山道森林中的湿润石板路，突出真正的古道徒步感",
+            "seasonConstraint": "绿色森林和苔藓非常适合9月底至10月上旬的典型视觉；图片本身无明确拍摄日期，不作为2026季相证据",
+            "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60829ede26c248314874e19e/ac67e53c-c698-449f-aebe-f1afd6bc85a4/KOTO_BW2018_041.jpg",
+            "assetUrl": "/assets/images/destinations/kisoji-nakasendo-magome-tsumago/03-eb2a1b403cfe.webp"
+          },
+          {
+            "slot": 4,
+            "role": "experience",
+            "displayTitle": "森林石阶徒步",
+            "subject": "徒步者走在森林石阶上的实景，直观体现坡度、路面和体力要求",
+            "seasonConstraint": "以绿意为主的林下画面符合目标窗口的大概率景象；避免使用雪景或浓红叶徒步照",
+            "sourceUrl": "https://images.squarespace-cdn.com/content/v1/60829ede26c248314874e19e/6b03b852-82b1-4541-b286-868de09cfcfb/KOTO_BW2018_044.jpg",
+            "assetUrl": "/assets/images/destinations/kisoji-nakasendo-magome-tsumago/04-0988396396e2.webp"
+          }
+        ],
+        "note": "已选素材均由木曾御岳观光局官方网站页面直接加载，视觉上能代表马笼—妻笼的宿场和古道体验；但这些图片未提供足够的拍摄日期元数据，因此不用于证明9月30日至10月7日的具体季相。站点本地化前仍应确认图片复用、署名和版权条件。"
+      },
+      "sources": [
+        {
+          "title": "木曽谷とりっぷ — 木曽について",
+          "url": "https://kiso-nagano.ne.jp/about/",
+          "type": "official",
+          "supports": [
+            "木曾路与中山道的关系",
+            "木曾十一宿的范围与历史背景",
+            "木曾路适合以步行和慢旅行方式体验的总体定位",
+            "overview.oneLine与categories"
+          ]
+        },
+        {
+          "title": "Kiso Ontake Tourism Office — Kiso Valley / Nakasendo / Magome–Tsumago",
+          "url": "https://en.visitkiso.com/nakasendo/magome-tsumago",
+          "type": "official",
+          "supports": [
+            "马笼—妻笼约8公里、悠闲步行约3小时",
+            "路线难度为easy to moderate且英文路标较完善",
+            "马笼向妻笼方向上坡更少",
+            "typicalRoute、physicalRating与gallery官方图片来源"
+          ]
+        },
+        {
+          "title": "木曽谷とりっぷ — 街道歩きで木曽の暮らしを感じる。木曽路をあるく２日間",
+          "url": "https://kiso-nagano.ne.jp/tripidea/002/",
+          "type": "official",
+          "supports": [
+            "马笼宿至妻笼宿约8.4公里",
+            "马笼峠、森林古道、一石栃立场茶屋等沿线体验",
+            "官方建议携带熊铃等发声物",
+            "overview.topExperiences与typicalRoute.stops"
+          ]
+        },
+        {
+          "title": "木曽谷とりっぷ — 2024 AUTUMN 木曽路紅葉ガイド",
+          "url": "https://kiso-nagano.ne.jp/wp-content/uploads/2024/08/a695744535a8fdbb6cf6a5c1e11ff3c5.pdf",
+          "type": "official",
+          "supports": [
+            "木曾地区不同海拔红叶时间差很大",
+            "妻笼、马笼等宿场典型红叶期明显晚于9月30日至10月7日",
+            "season.stage、season.summary与misleadingExpectation",
+            "仅用于多年季节参考，不作为2026实际红叶进度预报"
+          ]
+        },
+        {
+          "title": "日本气象厅 — 南木曽 9月平年値（日ごとの値）",
+          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_amd_d.php?prec_no=48&block_no=1022&year=&month=9&day=&view=",
+          "type": "official",
+          "supports": [
+            "1991—2020年9月30日平均、最高、最低气温平年值",
+            "season.temperatureContext与clothing的历史气候基准"
+          ]
+        },
+        {
+          "title": "日本气象厅 — 南木曽 10月平年値（日ごとの値）",
+          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_amd_d.php?prec_no=48&block_no=1022&year=&month=10&day=&view=",
+          "type": "official",
+          "supports": [
+            "1991—2020年10月1日至7日平均、最高、最低气温平年值",
+            "season.temperatureContext与clothing",
+            "强调这些数据不是2026年天气预报"
+          ]
+        },
+        {
+          "title": "日本气象厅 — 南木曽 月平年値",
+          "url": "https://www.data.jma.go.jp/stats/etrn/view/nml_amd_ym.php?block_no=1022&prec_no=48",
+          "type": "official",
+          "supports": [
+            "9月与10月降水量历史平年值",
+            "携带防水外层和关注湿滑路面的气候背景"
+          ]
+        },
+        {
+          "title": "妻籠宿公式ウェブサイト — 歩く",
+          "url": "https://tsumago.jp/walk/",
+          "type": "official",
+          "supports": [
+            "2026年度马笼—妻笼手荷物运搬期间、受理时间、取件时间和1,000日元/件价格",
+            "熊铃租借服务与徒步安全提醒",
+            "visit.luggage与bookingRisk"
+          ]
+        },
+        {
+          "title": "妻籠宿公式ウェブサイト — 2026年度 手荷物運搬サービス「定期便」",
+          "url": "https://tsumago.jp/luggage_forwarding_service_2026/",
+          "type": "official",
+          "supports": [
+            "2026年3月20日至11月30日定期行李转运已明确运行",
+            "8:30～11:30受理、13:00～17:00取件",
+            "2026目标窗口动态服务核验"
+          ]
+        },
+        {
+          "title": "ぶらり なぎそ — 中山道ハイキングをされるみなさまへ",
+          "url": "https://nagiso.jp/walking/",
+          "type": "official",
+          "supports": [
+            "2026年雨后石板路湿滑和受伤风险提醒",
+            "2026行李转运信息",
+            "当地每年有熊目击、建议携带发声物",
+            "weatherSensitivityRating、clothing与operatingSeason的风险说明"
+          ]
+        },
+        {
+          "title": "ぶらり なぎそ — 木曽観光連盟発行「中山道を歩く」修正箇所",
+          "url": "https://nagiso.jp/nakasendowoaruku_pamphlet/",
+          "type": "official",
+          "supports": [
+            "截至2026年5月男滝女滝附近旧中山道当前可通行",
+            "access.operatingSeason中的路况核验边界"
+          ]
+        },
+        {
+          "title": "ぶらり なぎそ — クマ・水難事故注意",
+          "url": "https://nagiso.jp/inform_wildanimals/",
+          "type": "official",
+          "supports": [
+            "2026年南木曾町内熊目击的动态风险",
+            "出发前应重新查询最新熊出没信息",
+            "bookingRisk.note与operatingSeason"
+          ]
+        },
+        {
+          "title": "妻籠宿公式ウェブサイト — アクセス",
+          "url": "https://tsumago.jp/access/",
+          "type": "official_transport",
+          "supports": [
+            "JR南木曾站至妻笼的出租车约10分钟、步行约40分钟",
+            "妻笼宿10:00～16:00车辆通行限制",
+            "access.mainEntrances"
+          ]
+        },
+        {
+          "title": "南木曽町 — 2026.4.1 地域バス時刻表",
+          "url": "https://nagiso.jp/wordpress/wp-content/uploads/2026/03/%E3%81%B6%E3%82%89%E3%82%8A%EF%BC%88%E6%97%A5%EF%BC%89.pdf",
+          "type": "official_transport",
+          "supports": [
+            "2026年南木曾站—妻笼—马笼地域巴士的实际班次框架",
+            "公交班次有限、需按时刻表规划的结论",
+            "bookingRisk"
+          ]
+        },
+        {
+          "title": "北恵那交通 — 時刻表・運賃",
+          "url": "https://kitaena.co.jp/timetable/",
+          "type": "official_transport",
+          "supports": [
+            "中津川站—马笼宿的马笼线为常用南侧公共交通入口",
+            "access.mainEntrances",
+            "具体2026年10月班次仍需临近再次核验"
+          ]
+        },
+        {
+          "title": "ぶらり なぎそ — 2026 高山・下呂 ⇆ 馬籠・妻籠線",
+          "url": "https://nagiso.jp/nouhibus_2026/",
+          "type": "official_transport",
+          "supports": [
+            "2026年4月1日至11月30日高山・下吕—马笼・妻笼季节巴士",
+            "每日班次很少且需事前预约",
+            "access.mainEntrances与bookingRisk"
+          ]
+        },
+        {
+          "title": "妻籠宿公式ウェブサイト — 宿泊施設のご紹介・案内図",
+          "url": "https://tsumago.jp/stay/guide-map/",
+          "type": "official",
+          "supports": [
+            "妻笼住宿以小型旅馆和民宿为主",
+            "住宿为完全预约制",
+            "传统住宿可能没有独立卫浴、门锁、电视等现代酒店设施",
+            "所有商店和饮食店约17点关闭的住宿环境提醒",
+            "overnight.value与bookingRisk"
+          ]
+        },
+        {
+          "title": "妻籠宿公式ウェブサイト — 妻籠宿宿泊施設空室情報",
+          "url": "https://tsumago.jp/%E5%A6%BB%E7%B1%A0%E5%AE%BF%E5%AE%BF%E6%B3%8A%E6%96%BD%E8%A8%AD%E7%A9%BA%E5%AE%A4%E6%83%85%E5%A0%B1/",
+          "type": "official",
+          "supports": [
+            "官方明确说明空室页面不是实时更新",
+            "住宿必须向各设施再次确认实际库存",
+            "bookingRisk.level与note"
+          ]
+        },
+        {
+          "title": "妻籠宿公式ウェブサイト — 脇本陣奥谷",
+          "url": "https://tsumago.jp/view/wakihonjin/",
+          "type": "official",
+          "supports": [
+            "脇本陣奥谷为国重要文化财",
+            "2026年当前营业时间9:00～17:00、16:45停止入馆",
+            "每月第2、第4个星期四和年末年初休馆",
+            "topExperiences与typicalRoute终点参观选项"
+          ]
+        }
+      ],
+      "research": {
+        "lastVerified": "2026-08-24",
+        "note": "本条目将“木曾路”定义为中山道穿越木曾谷的历史区域，但根据该候选本身的核心体验，typicalRoute聚焦最具代表性的马笼宿—妻笼宿马笼峠越，不把整个木曾十一宿强行压成一条日行路线。季节判断专门针对9月30日至10月7日：南木曾的气温来自日本气象厅1991—2020年平年值，红叶期来自木曾官方秋季资料；2026年实际红叶进度、降雨和台风影响仍无法提前可靠确认。2026年度行李转运和高山／下吕季节巴士已由官方公布并覆盖目标窗口；南木曾地域巴士已有2026.4.1版时刻表，但北惠那交通、JR以及任何临时增减班仍需临近出发重新核验。2026年官方已提醒雨后石板路湿滑，并发布熊目击信息；目前能查到的最新官方资料没有显示马笼—妻笼核心路线存在长期封闭，但这不等同于对2026年9月30日至10月7日每天的通行状态作保证。gallery所选官方图片未提供可可靠核实的拍摄日期，因此只用于展示地貌、街景和徒步体验，不作为目标窗口季相证据。评分依据字段定义：季节4/5＝气温很适合徒步但尚非红叶高峰；体力3/5＝约8公里、官方easy-to-moderate但有连续坡路和不平石板；天气敏感4/5＝雨后石板明显湿滑且长时间户外；住宿景观4/5＝早晚宿场氛围提升明显；住宿效率4/5＝能显著降低当天公交与8公里徒步的时间压力。"
       }
     }
   ],

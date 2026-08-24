@@ -97,6 +97,7 @@
       {
         "slot": 1,
         "role": "hero",
+        "displayTitle": "具体地点或体验名称",
         "subject": "待填写",
         "seasonConstraint": "优先 9 月底至 10 月上旬实景",
         "assetUrl": null,
